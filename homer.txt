@@ -1,0 +1,19 @@
+dummy content
+color
+fonts
+css
+html
+validators
+dns
+drush
+composer
+icons
+viewers
+convertors
+json
+xml
+seo
+speedtest
+Stock foto’s
+Json tools
+Security checks
