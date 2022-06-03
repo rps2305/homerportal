@@ -241,7 +241,7 @@ services:
         logo: "assets/tools/sample2.png"
         subtitle: ".htaccess examples for Apache Webserver"
         tag: "Apache"
-        url: "https://www.askapache.com/htaccess/
+        url: "https://www.askapache.com/htaccess/"
         target: "_blank" # optional html a tag target attribute
       - name: "PWA tester online"
         logo: "assets/tools/sample2.png"
