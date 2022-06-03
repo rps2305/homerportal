@@ -125,11 +125,11 @@ services:
   - name: "Dummy Content"
     icon: "fa-solid fa-folder-grid"
     items:
-      - name: "Awesome app"
+      - name: "HexColorCodes"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        subtitle: "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go!"
+        tag: "Colors"
+        url: "https://hexcolorcodes.org"
         target: "_blank" # optional html a tag target attribute
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
@@ -205,7 +205,7 @@ services:
         tag: "app"
         url: "#"
   - name: "JSON"
-    icon: "fas fa-brackets-curly"
+    icon: "fa fa-brackets-curly"
     items:
       - name: "JSON Test"
         logo: "assets/icons/json-icon-24.jpg.png"
