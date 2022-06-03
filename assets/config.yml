@@ -83,11 +83,11 @@ services:
   - name: "SEO"
     icon: "fa fa-search-minus"
     items:
-      - name: "Awesome app"
+      - name: "gtmetrix.com"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "How fast does your website load?"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://gtmetrix.com"
         target: "_blank" # optional html a tag target attribute
       - name: "Summersquare"
         logo: "assets/icons/box.png"
@@ -182,14 +182,14 @@ services:
         tag: "Website"
         url: "https://observatory.mozilla.org"
         target: "_blank" # optional html a tag target attribute
-  - name: "DNS"
+  - name: "DNS / IP"
     icon: "fa fa-address-book"
     items:
-      - name: "Awesome application"
+      - name: "DNS Stuff"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example number 2"
+        subtitle: "Free DNS tools"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://www.dnsstuff.com/freetools"
         target: "_blank" # optional html a tag target attribute
       - name: "IPlocation.io"
         logo: "assets/tools/sample2.png"
