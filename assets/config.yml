@@ -205,7 +205,7 @@ services:
         tag: "app"
         url: "#"
   - name: "JSON"
-    icon: "fa fa-brackets-curly"
+    icon: "fa fa-file"
     items:
       - name: "JSON Test"
         logo: "assets/icons/json-icon-24.jpg.png"
