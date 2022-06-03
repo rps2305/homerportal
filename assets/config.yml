@@ -158,6 +158,12 @@ services:
   - name: "Security Checks"
     icon: "fa-solid fa-camera-cctv"
     items:
+      - name: "Website Scanner"
+        logo: "assets/icons/paperless.png"
+        subtitle: "Discover common web application vulnerabilities and server configuration issues."
+        tag: "Website"
+        url: "https://pentest-tools.com/website-vulnerability-scanning/website-scanner"
+        target: "_blank" # optional html a tag target attribute
       - name: "Microsoft Connectivity Tester"
         logo: "assets/tools/sample.png"
         subtitle: "Test connectivity with MS Products"
@@ -179,11 +185,12 @@ services:
         tag: "app"
         url: "https://www.reddit.com/r/selfhosted/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "IPlocation.io"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+        subtitle: "IP Location Lookup"
         tag: "app"
-        url: "#"
+        url: "https://iplocation.io"
+        target: "_blank" # optional html a tag target attribute
   - name: "Resources"
     icon: "fas fa-cloud"
     items:
@@ -236,9 +243,9 @@ services:
         tag: "Apache"
         url: "https://www.askapache.com/htaccess/
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "PWA tester online"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+        subtitle: "PWA tester online"
         tag: "app"
-        url: "#"
+        url: "https://www.seochecker.it/pwa-tester-online"
         target: "_blank" # optional html a tag target attribute
