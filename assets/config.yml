@@ -149,7 +149,7 @@ services:
         tag: "app"
         url: "#"
   - name: "Security Checks"
-    icon: "fa fa-lock"
+    icon: "fa-solid fa-camera-cctv"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
