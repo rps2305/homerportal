@@ -129,11 +129,11 @@ services:
         tag: "app"
         url: "https://www.cleanpng.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "unDraw"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+        subtitle: "Find illustrations for projects"
         tag: "app"
-        url: "#"
+        url: "https://undraw.co/search"
   - name: "Dummy Content"
     icon: "fa-solid fa-folder-grid"
     items:
@@ -176,6 +176,12 @@ services:
         tag: "HTTP"
         url: "https://tools.keycdn.com/http2-test"
         target: "_blank" # optional html a tag target attribute
+      - name: "Mozilla Observatory"
+        logo: "assets/icons/paperless.png"
+        subtitle: "Scan your website for vulns"
+        tag: "Website"
+        url: "https://observatory.mozilla.org"
+        target: "_blank" # optional html a tag target attribute
   - name: "DNS"
     icon: "fa fa-address-book"
     items:
@@ -214,11 +220,11 @@ services:
         tag: "app"
         url: "https://www.reddit.com/r/selfhosted/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "Webfont-Test"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+        subtitle: "Compare Webfonts"
+        tag: "Fonts"
+        url: "http://webfont-test.com"
   - name: "JSON"
     icon: "fa fa-file"
     items:
