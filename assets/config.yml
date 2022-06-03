@@ -197,6 +197,12 @@ services:
         tag: "app"
         url: "https://iplocation.io"
         target: "_blank" # optional html a tag target attribute
+      - name: "https://ipv6-test.com"
+        logo: "assets/tools/sample2.png"
+        subtitle: "IP Location Lookup"
+        tag: "app"
+        url: "https://ipv6-test.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Resources"
     icon: "fas fa-cloud"
     items:
