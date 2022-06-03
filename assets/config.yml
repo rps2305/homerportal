@@ -123,11 +123,11 @@ services:
         tag: "Stock"
         url: "https://www.pexels.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Awesome app"
+      - name: "CleanPNG"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Find Transparant PNG icons"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://www.cleanpng.com"
         target: "_blank" # optional html a tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
@@ -149,14 +149,20 @@ services:
         tag: "app"
         url: "https://thispersondoesnotexist.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "randomuser.me"
+        logo: "assets/tools/sample2.png"
+        subtitle: "RANDOM USER GENERATOR"
+        tag: "app"
+        url: "https://randomuser.me"
+        target: "_blank" # optional html a tag target attribute
   - name: "Security Checks"
     icon: "fa-solid fa-camera-cctv"
     items:
-      - name: "Awesome app"
+      - name: "Microsoft Connectivity Tester"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Test connectivity with MS Products"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://testconnectivity.microsoft.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Summersquare"
         logo: "assets/icons/paperless.png"
