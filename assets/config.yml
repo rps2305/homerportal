@@ -81,7 +81,7 @@ services:
         tag: "app"
         url: "#"
   - name: "SEO"
-    icon: "fas fa-microchip"
+    icon: "fa fa-search-minus"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
@@ -95,7 +95,7 @@ services:
         tag: "Festival"
         url: "https://www.summersquare.nl"
   - name: "Validators"
-    icon: "fas fa-music"
+    icon: "fa fa-check-circle"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
