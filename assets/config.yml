@@ -240,11 +240,11 @@ services:
         tag: "JSON"
         url: "http://www.jsontest.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "JSON Formatter"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+        subtitle: "Beaitufy JSON online"
+        tag: "JSON"
+        url: "https://jsonformatter.org"
         target: "_blank" # optional html a tag target attribute
   - name: "Apache / NGinx"
     icon: "fa fa-cloudflare"
@@ -260,4 +260,19 @@ services:
         subtitle: "PWA tester online"
         tag: "app"
         url: "https://www.seochecker.it/pwa-tester-online"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Applications"
+    icon: "fa fa-buffer"
+    items:
+      - name: "draw.io"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Draw diagrams and flowcharts online like Visio"
+        tag: "App"
+        url: "https://app.diagrams.net"
+        target: "_blank" # optional html a tag target attribute
+      - name: "TinyPNG
+        logo: "assets/tools/sample2.png"
+        subtitle: "Optimize JPG and PNG for the web"
+        tag: "app"
+        url: "https://tinypng.com"
         target: "_blank" # optional html a tag target attribute
