@@ -111,6 +111,18 @@ services:
   - name: "Content"
     icon: "fas fa-book"
     items:
+      - name: "Pixabay"
+        logo: "assets/tools/sample.png"
+        subtitle: "Stunning free images & royalty free stock"
+        tag: "Stock"
+        url: "https://pixabay.com/nl/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Pexels"
+        logo: "assets/tools/sample.png"
+        subtitle: "Free Stock Photos"
+        tag: "Stock"
+        url: "https://www.pexels.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
         subtitle: "Bookmark example"
@@ -131,23 +143,12 @@ services:
         tag: "Colors"
         url: "https://hexcolorcodes.org"
         target: "_blank" # optional html a tag target attribute
-      - name: "Pixabay"
-        logo: "assets/tools/sample.png"
-        subtitle: "Stunning free images & royalty free stock"
-        tag: "Stock"
-        url: "https://pixabay.com/nl/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Pexels"
-        logo: "assets/tools/sample.png"
-        subtitle: "Free Stock Photos"
-        tag: "Stock"
-        url: "https://www.pexels.com"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "This Person Does Not Exist"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
+        subtitle: "Random face generator"
         tag: "app"
-        url: "#"
+        url: "https://thispersondoesnotexist.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Security Checks"
     icon: "fa-solid fa-camera-cctv"
     items:
