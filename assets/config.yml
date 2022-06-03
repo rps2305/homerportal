@@ -123,7 +123,7 @@ services:
         tag: "app"
         url: "#"
   - name: "Dummy Content"
-    icon: "fa fa-snowflake-o"
+    icon: "fa-solid fa-folder-grid"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
@@ -198,6 +198,20 @@ services:
         subtitle: "Bookmark example"
         tag: "app"
         url: "https://www.reddit.com/r/selfhosted/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Another one"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Another application"
+        tag: "app"
+        url: "#"
+  - name: "JSON"
+    icon: "fas fa-brackets-curly"
+    items:
+      - name: "JSON Test"
+        logo: "assets/tools/sample.png"
+        subtitle: "JSONTest.com is a testing platform for services utilizing JavaScript Object Notation (JSON)."
+        tag: "JSON"
+        url: "http://www.jsontest.com"
         target: "_blank" # optional html a tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
