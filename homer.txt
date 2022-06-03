@@ -1,21 +1,18 @@
-dummy content
 color
-fonts
+composer
+convertors
 css
-html
-validators
 dns
 drush
-composer
+dummy content
+fonts
+html
 icons
-viewers
-convertors
 json
-xml
+security checks
 seo
 speedtest
-Stock foto’s
-Json tools
-Security checks
-
-
+stock foto’s
+validators
+viewers
+xml
