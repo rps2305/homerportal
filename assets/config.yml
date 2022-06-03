@@ -270,7 +270,7 @@ services:
         tag: "App"
         url: "https://app.diagrams.net"
         target: "_blank" # optional html a tag target attribute
-      - name: "TinyPNG
+      - name: "TinyPNG"
         logo: "assets/tools/sample2.png"
         subtitle: "Optimize JPG and PNG for the web"
         tag: "app"
