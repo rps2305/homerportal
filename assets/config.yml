@@ -208,7 +208,7 @@ services:
     icon: "fas fa-brackets-curly"
     items:
       - name: "JSON Test"
-        logo: "assets/tools/sample.png"
+        logo: "assets/icons/json-icon-24.jpg.png"
         subtitle: "JSONTest.com is a testing platform for services utilizing JavaScript Object Notation (JSON)."
         tag: "JSON"
         url: "http://www.jsontest.com"
