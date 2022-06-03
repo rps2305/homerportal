@@ -67,7 +67,7 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Portal"
-    icon: "fas fa-cloud"
+    icon: "fas fa-star"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
