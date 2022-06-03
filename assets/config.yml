@@ -122,8 +122,8 @@ services:
         subtitle: "Another application"
         tag: "app"
         url: "#"
-  - name: "Validators"
-    icon: "fas fa-cloud"
+  - name: "Dummy Content"
+    icon: "fa fa-snowflake-o"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
@@ -149,7 +149,7 @@ services:
         tag: "app"
         url: "#"
   - name: "Security Checks"
-    icon: "fas fa-microchip"
+    icon: "fa fa-shield"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
@@ -163,7 +163,7 @@ services:
         tag: "Festival"
         url: "https://www.summersquare.nl"
   - name: "DNS"
-    icon: "fas fa-music"
+    icon: "fa fa-address-book"
     items:
       - name: "Awesome application"
         logo: "assets/tools/sample.png"
@@ -177,6 +177,20 @@ services:
         tag: "app"
         url: "#"
   - name: "Resources"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Awesome app"
+        logo: "assets/tools/sample.png"
+        subtitle: "Bookmark example"
+        tag: "app"
+        url: "https://www.reddit.com/r/selfhosted/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Another one"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Another application"
+        tag: "app"
+        url: "#"
+  - name: "HTML and CSS"
     icon: "fas fa-cloud"
     items:
       - name: "Awesome app"
