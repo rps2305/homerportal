@@ -164,11 +164,12 @@ services:
         tag: "app"
         url: "https://testconnectivity.microsoft.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Summersquare"
+      - name: "VERIFY HTTP/2 SUPPORT"
         logo: "assets/icons/paperless.png"
-        subtitle: "Summersquare Festival"
-        tag: "Festival"
-        url: "https://www.summersquare.nl"
+        subtitle: "Troubleshoot website, network, and CDN issues for fast resolutions."
+        tag: "HTTP"
+        url: "https://tools.keycdn.com/http2-test"
+        target: "_blank" # optional html a tag target attribute
   - name: "DNS"
     icon: "fa fa-address-book"
     items:
@@ -225,3 +226,19 @@ services:
         subtitle: "Another application"
         tag: "app"
         url: "#"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Apache / NGinx"
+    icon: "fa fa-cloudflare"
+    items:
+      - name: "THE Ultimate Htaccess"
+        logo: "assets/tools/sample2.png"
+        subtitle: ".htaccess examples for Apache Webserver"
+        tag: "Apache"
+        url: "https://www.askapache.com/htaccess/
+        target: "_blank" # optional html a tag target attribute
+      - name: "Another one"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Another application"
+        tag: "app"
+        url: "#"
+        target: "_blank" # optional html a tag target attribute
