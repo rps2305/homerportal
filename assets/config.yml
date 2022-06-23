@@ -254,11 +254,11 @@ services:
   - name: "Resources"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
+      - name: "hatwebcando.today"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "WHAT WEB CAN DO TODAY?"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://whatwebcando.today"
         target: "_blank" # optional html a tag target attribute
       - name: "PWA Builder"
         logo: "assets/tools/sample2.png"
