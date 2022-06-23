@@ -94,6 +94,16 @@ services:
         subtitle: "Summersquare Festival"
         tag: "Festival"
         url: "https://www.summersquare.nl"
+      - name: "Summersquare"
+        logo: "assets/icons/box.png"
+        subtitle: "Summersquare Festival"
+        tag: "Festival"
+        url: "https://www.summersquare.nl"
+      - name: "Summersquare"
+        logo: "assets/icons/box.png"
+        subtitle: "Summersquare Festival"
+        tag: "Festival"
+        url: "https://www.summersquare.nl"
   - name: "Validators"
     icon: "fa fa-check-circle"
     items:
@@ -269,6 +279,21 @@ services:
         subtitle: "Draw diagrams and flowcharts online like Visio"
         tag: "App"
         url: "https://app.diagrams.net"
+        target: "_blank" # optional html a tag target attribute
+      - name: "TinyPNG"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Optimize JPG and PNG for the web"
+        tag: "app"
+        url: "https://tinypng.com"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Selfhosted / OSS"
+    icon: "fa fa-buffer"
+    items:
+      - name: "Selfhosted Libhunt"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Collection op selfhosted applications"
+        tag: "AppSelfhosted"
+        url: "https://selfhosted.libhunt.com"
         target: "_blank" # optional html a tag target attribute
       - name: "TinyPNG"
         logo: "assets/tools/sample2.png"
