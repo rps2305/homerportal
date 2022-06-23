@@ -89,16 +89,16 @@ services:
         tag: "app"
         url: "https://gtmetrix.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Summersquare"
+      - name: "SEO Checker IT"
         logo: "assets/icons/box.png"
-        subtitle: "Summersquare Festival"
-        tag: "Festival"
-        url: "https://www.summersquare.nl"
-      - name: "Summersquare"
+        subtitle: "Very fast and comprihensive SEO checker"
+        tag: "SEO"
+        url: "https://www.seochecker.it/"
+      - name: "Geekflare Tools for SEO, DNS etc."
         logo: "assets/icons/box.png"
-        subtitle: "Summersquare Festival"
-        tag: "Festival"
-        url: "https://www.summersquare.nl"
+        subtitle: "Set of FREE tools to test your site for DNS, Security, Performance, Network and SEO issues."
+        tag: "Tools"
+        url: "https://geekflare.com/tools"
       - name: "Summersquare"
         logo: "assets/icons/box.png"
         subtitle: "Summersquare Festival"
@@ -209,7 +209,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "https://ipv6-test.com"
         logo: "assets/tools/sample2.png"
-        subtitle: "IP Location Lookup"
+        subtitle: "IPv6-test.com is a free service that checks your IPv6 and IPv4 connectivity and speed."
         tag: "app"
         url: "https://ipv6-test.com"
         target: "_blank" # optional html a tag target attribute
@@ -222,11 +222,11 @@ services:
         tag: "app"
         url: "https://www.reddit.com/r/selfhosted/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "PWA Builder"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+        subtitle: "Helping developers build and publish PWAs"
+        tag: "PWA"
+        url: "https://www.pwabuilder.com"
   - name: "HTML and CSS"
     icon: "fas fa-cloud"
     items:
@@ -292,7 +292,7 @@ services:
       - name: "Selfhosted Libhunt"
         logo: "assets/tools/sample2.png"
         subtitle: "Collection op selfhosted applications"
-        tag: "AppSelfhosted"
+        tag: "Selfhosted"
         url: "https://selfhosted.libhunt.com"
         target: "_blank" # optional html a tag target attribute
       - name: "TinyPNG"
@@ -300,4 +300,19 @@ services:
         subtitle: "Optimize JPG and PNG for the web"
         tag: "app"
         url: "https://tinypng.com"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Benchmarks"
+    icon: "fa fa-buffer"
+    items:
+      - name: "Browserbench.org"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Benchmark test your system in the browser"
+        tag: "Benchmark"
+        url: "https://browserbench.org"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Vsync Tester"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Web browser VSYNC synchronization"
+        tag: "app"
+        url: "https://www.vsynctester.com"
         target: "_blank" # optional html a tag target attribute
