@@ -124,6 +124,11 @@ services:
         subtitle: "Search Engine Optimization Made Easy"
         tag: "SEO"
         url: "https://seositecheckup.com"
+      - name: "SEOptimer"
+        logo: "assets/icons/box.png"
+        subtitle: "SEO Audit & Reporting Tool"
+        tag: "SEO"
+        url: "https://www.seoptimer.com"
   - name: "Validators"
     icon: "fa fa-check-circle"
     items:
@@ -164,7 +169,7 @@ services:
         subtitle: "Find illustrations for projects"
         tag: "app"
         url: "https://undraw.co/search"
-  - name: "Dummy Content"
+  - name: "Dummy Content / Generators"
     icon: "fa-solid fa-folder-grid"
     items:
       - name: "HexColorCodes"
@@ -184,6 +189,18 @@ services:
         subtitle: "RANDOM USER GENERATOR"
         tag: "app"
         url: "https://randomuser.me"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Front-end Cheatsheets"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Hundreds of coding snippets and shortcuts for front-end developers carefully curated by SheCodes"
+        tag: "app"
+        url: "https://cheatsheets.shecodes.io"
+        target: "_blank" # optional html a tag target attribute
+      - name: "RealFaviconGenerator"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Favicon Generator. For real."
+        tag: "app"
+        url: "https://realfavicongenerator.net"
         target: "_blank" # optional html a tag target attribute
   - name: "Security Checks"
     icon: "fa-solid fa-camera-cctv"
