@@ -299,6 +299,12 @@ services:
   - name: "JSON"
     icon: "fa fa-file"
     items:
+      - name: "HoppScotch"
+        logo: "assets/icons/json-icon-24.jpg.png"
+        subtitle: "OSS Postman variant for JSON and/or GraphQL queries"
+        tag: "JSON"
+        url: "https://hoppscotch.io/"
+        target: "_blank" # optional html a tag target attribute
       - name: "JSON Test"
         logo: "assets/icons/json-icon-24.jpg.png"
         subtitle: "JSONTest.com is a testing platform for services utilizing JavaScript Object Notation (JSON)."
