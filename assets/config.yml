@@ -138,11 +138,11 @@ services:
         tag: "Validator"
         url: "https://validator.w3.org"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "Google - Test on Rich Results"
         logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+        subtitle: "Ondersteunt je pagina uitgebreide resultaten?"
+        tag: "SEO"
+        url: "https://search.google.com/test/rich-results"
   - name: "Content"
     icon: "fas fa-book"
     items:
@@ -320,7 +320,7 @@ services:
   - name: "Apache / NGinx"
     icon: "fa fa-cloudflare"
     items:
-      - name: "THE Ultimate Htaccess"
+      - name: "The Ultimate Htaccess"
         logo: "assets/tools/sample2.png"
         subtitle: ".htaccess examples for Apache Webserver"
         tag: "Apache"
@@ -385,4 +385,25 @@ services:
         subtitle: "Apple Models, Indentifiers, A-numbers"
         tag: "Apple"
         url: "https://www.theiphonewiki.com/wiki/Models"
+        target: "_blank" # optional html a tag target attribute
+      - name: "IPSW Downloads"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Download current and previous versions of Apple's iOS, iPadOS, macOS, watchOS, tvOS and audioOS"
+        tag: "Apple"
+        url: "https://ipsw.me"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Microsoft"
+    icon: "fa fa-buffer"
+    items:
+      - name: "VLSC"
+        logo: "assets/tools/sample2.png"
+        subtitle: "servicecentrum voor volumelicenties"
+        tag: "Microsoft"
+        url: "https://www.microsoft.com/Licensing/servicecenter/default.aspx"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Microsoft Office 365 Info"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Office 365 blog"
+        tag: "Microsoft"
+        url: "https://o365info.com/"
         target: "_blank" # optional html a tag target attribute
