@@ -356,11 +356,11 @@ services:
         tag: "Selfhosted"
         url: "https://selfhosted.libhunt.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "TinyPNG"
+      - name: "Docker Course for starters"
         logo: "assets/tools/sample2.png"
-        subtitle: "Optimize JPG and PNG for the web"
-        tag: "app"
-        url: "https://tinypng.com"
+        subtitle: "Learn to build and deploy your distributed applications easily to the cloud with Docker"
+        tag: "Docker"
+        url: "https://docker-curriculum.com/#introduction"
         target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
     icon: "fa fa-buffer"
@@ -392,6 +392,12 @@ services:
         tag: "Apple"
         url: "https://ipsw.me"
         target: "_blank" # optional html a tag target attribute
+      - name: "Bundle Id Finder"
+        logo: "assets/tools/sample2.png"
+        subtitle: "This site will help you find Bundle-Ids quickly."
+        tag: "Apple"
+        url: "https://offcornerdev.com/bundleid.html"
+        target: "_blank" # optional html a tag target attribute
   - name: "Microsoft"
     icon: "fa fa-buffer"
     items:
@@ -406,4 +412,16 @@ services:
         subtitle: "Office 365 blog"
         tag: "Microsoft"
         url: "https://o365info.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Chocolatey.org"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Best free Windows package manager"
+        tag: "Microsoft"
+        url: "https://chocolatey.org/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "SS64"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Command line reference: cmd, PowerShell, bash, macOS"
+        tag: "Microsoft"
+        url: "https://ss64.com"
         target: "_blank" # optional html a tag target attribute
