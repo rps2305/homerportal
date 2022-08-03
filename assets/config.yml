@@ -94,41 +94,49 @@ services:
         subtitle: "Very fast and comprihensive SEO checker"
         tag: "SEO"
         url: "https://www.seochecker.it/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Geekflare Tools for SEO, DNS etc."
         logo: "assets/icons/box.png"
         subtitle: "Set of FREE tools to test your site for DNS, Security, Performance, Network and SEO issues."
         tag: "Tools"
         url: "https://geekflare.com/tools"
+        target: "_blank" # optional html a tag target attribute
       - name: "Pagespeed Insights"
         logo: "assets/icons/box.png"
         subtitle: "Maak je webpagina's snel op alle apparaten"
         tag: "SEO"
         url: "https://pagespeed.web.dev"
+        target: "_blank" # optional html a tag target attribute
       - name: "SiteChecker"
         logo: "assets/icons/box.png"
         subtitle: "SEO"
         tag: "SEO"
         url: "https://sitechecker.pro"
+        target: "_blank" # optional html a tag target attribute
       - name: "Hey Meta"
         logo: "assets/icons/box.png"
         subtitle: "Check your metatags"
         tag: "SEO"
         url: "https://www.heymeta.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "SEO Check"
         logo: "assets/icons/box.png"
         subtitle: "SEO CHECK – Free Tools to Improve Your Rankings"
         tag: "SEO"
         url: "https://www.seocheck.io"
+        target: "_blank" # optional html a tag target attribute
       - name: "SEO Site CheckUp"
         logo: "assets/icons/box.png"
         subtitle: "Search Engine Optimization Made Easy"
         tag: "SEO"
         url: "https://seositecheckup.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "SEOptimer"
         logo: "assets/icons/box.png"
         subtitle: "SEO Audit & Reporting Tool"
         tag: "SEO"
         url: "https://www.seoptimer.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Validators"
     icon: "fa fa-check-circle"
     items:
@@ -300,6 +308,7 @@ services:
         subtitle: "Helping developers build and publish PWAs"
         tag: "PWA"
         url: "https://www.pwabuilder.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "HTML and CSS"
     icon: "fas fa-cloud"
     items:
@@ -314,6 +323,7 @@ services:
         subtitle: "Compare Webfonts"
         tag: "Fonts"
         url: "http://webfont-test.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -331,9 +341,15 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "JSON Formatter"
         logo: "assets/tools/sample2.png"
-        subtitle: "Beaitufy JSON online"
+        subtitle: "Beautify JSON online"
         tag: "JSON"
         url: "https://jsonformatter.org"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Geekflare JSON online tools"
+        logo: "assets/tools/sample2.png"
+        subtitle: "20 JSON tools online"
+        tag: "JSON"
+        url: "https://geekflare.com/json-online-tools/"
         target: "_blank" # optional html a tag target attribute
   - name: "Apache / NGinx"
     icon: "fa fa-cloudflare"
