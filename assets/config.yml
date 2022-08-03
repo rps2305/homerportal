@@ -5,7 +5,7 @@
 title: "Ronald Punt"
 subtitle: "Dashboard"
 logo: "logo.png"
-icon: "fas fa-skull-crossbones" # Optional icon
+#icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
 footer: false #'<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
@@ -190,6 +190,12 @@ services:
         tag: "app"
         url: "https://randomuser.me"
         target: "_blank" # optional html a tag target attribute
+      - name: "Fake Person Generator"
+        logo: "assets/tools/sample2.png"
+        subtitle: "To protect your real information from being leaked"
+        tag: "app"
+        url: "https://www.fakepersongenerator.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "Front-end Cheatsheets"
         logo: "assets/tools/sample2.png"
         subtitle: "Hundreds of coding snippets and shortcuts for front-end developers carefully curated by SheCodes"
@@ -249,7 +255,7 @@ services:
         subtitle: "CHECK DNS PROPAGATION"
         tag: "DNS"
         url: "https://dnschecker.org"
-        target: "_blank" # optional html a tag target attribute   
+        target: "_blank" # optional html a tag target attribute
       - name: "DNS Stuff"
         logo: "assets/tools/sample.png"
         subtitle: "Free DNS tools"
@@ -267,6 +273,18 @@ services:
         subtitle: "IPv6-test.com is a free service that checks your IPv6 and IPv4 connectivity and speed."
         tag: "IP"
         url: "https://ipv6-test.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "DNSchecker.org - SMTP Test"
+        logo: "assets/tools/sample2.png"
+        subtitle: "SMTP tester"
+        tag: "IP"
+        url: "https://dnschecker.org/smtp-test-tool.php"
+        target: "_blank" # optional html a tag target attribute
+      - name: "DNSlytics e-mail test"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Test an email address for successful delivery"
+        tag: "SMTP"
+        url: "https://dnslytics.com/email-test"
         target: "_blank" # optional html a tag target attribute
   - name: "Resources"
     icon: "fas fa-cloud"
