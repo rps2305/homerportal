@@ -324,6 +324,12 @@ services:
         tag: "Fonts"
         url: "http://webfont-test.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "Can I use?"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Browser compatibility"
+        tag: "Web"
+        url: "https://caniuse.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -332,6 +338,12 @@ services:
         subtitle: "OSS Postman variant for JSON and/or GraphQL queries"
         tag: "JSON"
         url: "https://hoppscotch.io/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "JSON:API.org"
+        logo: "assets/tools/sample2.png"
+        subtitle: "A SPECIFICATION FOR BUILDING APIS IN JSON"
+        tag: "JSON"
+        url: "https://jsonapi.org"
         target: "_blank" # optional html a tag target attribute
       - name: "JSON Test"
         logo: "assets/icons/json-icon-24.jpg.png"
@@ -384,6 +396,12 @@ services:
   - name: "Selfhosted / OSS"
     icon: "fa fa-buffer"
     items:
+      - name: "Docker HUB"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Public container registry"
+        tag: "Docker"
+        url: "https://hub.docker.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "Selfhosted Libhunt"
         logo: "assets/tools/sample2.png"
         subtitle: "Collection op selfhosted applications"
