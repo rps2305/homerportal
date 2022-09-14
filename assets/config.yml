@@ -66,20 +66,6 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Portal"
-    icon: "fas fa-star"
-    items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "seo"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/icons/bastillion.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
   - name: "SEO"
     icon: "fa fa-search-minus"
     items:
@@ -434,6 +420,12 @@ services:
         subtitle: "Web browser VSYNC synchronization"
         tag: "app"
         url: "https://www.vsynctester.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Yet-Another-Bench-Script"
+        logo: "assets/tools/sample2.png"
+        subtitle: "curl -sL yabs.sh | bash -s -- -i"
+        tag: "app"
+        url: "https://github.com/masonr/yet-another-bench-script"
         target: "_blank" # optional html a tag target attribute
   - name: "Apple"
     icon: "fa fa-buffer"
