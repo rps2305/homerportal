@@ -289,7 +289,7 @@ services:
   - name: "Resources"
     icon: "fas fa-cloud"
     items:
-      - name: "hatwebcando.today"
+      - name: "whatwebcando.today"
         logo: "assets/tools/sample.png"
         subtitle: "WHAT WEB CAN DO TODAY?"
         tag: "app"
@@ -304,11 +304,11 @@ services:
   - name: "HTML and CSS"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
+      - name: "W3C Validator"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        subtitle: "Markup Validation Service"
+        tag: "HTML"
+        url: "https://validator.w3.org"
         target: "_blank" # optional html a tag target attribute
       - name: "Webfont-Test"
         logo: "assets/tools/sample2.png"
