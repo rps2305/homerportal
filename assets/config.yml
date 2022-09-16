@@ -322,6 +322,12 @@ services:
         tag: "Web"
         url: "https://caniuse.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "Encode e-mail address"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Fighting SPAM"
+        tag: "Web"
+        url: "https://ctrlq.org/encode/"
+        target: "_blank" # optional html a tag target attribute
   - name: "JSON"
     icon: "fa fa-file"
     items:
