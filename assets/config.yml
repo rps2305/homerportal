@@ -362,7 +362,7 @@ services:
         url: "https://geekflare.com/json-online-tools/"
         target: "_blank" # optional html a tag target attribute
   - name: "Apache / NGinx"
-    icon: "fa fa-cloudflare"
+    icon: "fab fa-cloudflare"
     items:
       - name: "The Ultimate Htaccess"
         logo: "assets/tools/sample2.png"
@@ -377,7 +377,7 @@ services:
         url: "https://www.seochecker.it/pwa-tester-online"
         target: "_blank" # optional html a tag target attribute
   - name: "Applications"
-    icon: "fa fa-buffer"
+    icon: "fab fa-buffer"
     items:
       - name: "draw.io"
         logo: "assets/tools/sample2.png"
@@ -413,7 +413,7 @@ services:
         url: "https://docker-curriculum.com/#introduction"
         target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
-    icon: "fa fa-buffer"
+    icon: "fab fa-buffer"
     items:
       - name: "Browserbench.org"
         logo: "assets/tools/sample2.png"
@@ -434,7 +434,7 @@ services:
         url: "https://github.com/masonr/yet-another-bench-script"
         target: "_blank" # optional html a tag target attribute
   - name: "Apple"
-    icon: "fa fa-apple"
+    icon: "fab fa-apple"
     items:
       - name: "iPhone Wiki - Models"
         logo: "assets/tools/sample2.png"
@@ -455,7 +455,7 @@ services:
         url: "https://offcornerdev.com/bundleid.html"
         target: "_blank" # optional html a tag target attribute
   - name: "Microsoft"
-    icon: "fa fa-windows"
+    icon: "fab fa-windows"
     items:
       - name: "VLSC"
         logo: "assets/tools/sample2.png"
