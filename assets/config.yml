@@ -434,7 +434,7 @@ services:
         url: "https://github.com/masonr/yet-another-bench-script"
         target: "_blank" # optional html a tag target attribute
   - name: "Apple"
-    icon: "fa fa-buffer"
+    icon: "fa fa-apple"
     items:
       - name: "iPhone Wiki - Models"
         logo: "assets/tools/sample2.png"
@@ -455,7 +455,7 @@ services:
         url: "https://offcornerdev.com/bundleid.html"
         target: "_blank" # optional html a tag target attribute
   - name: "Microsoft"
-    icon: "fa fa-buffer"
+    icon: "fa fa-windows"
     items:
       - name: "VLSC"
         logo: "assets/tools/sample2.png"
