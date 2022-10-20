@@ -392,7 +392,7 @@ services:
         url: "https://tinypng.com"
         target: "_blank" # optional html a tag target attribute
   - name: "Selfhosted / OSS"
-    icon: "fa fa-buffer"
+    icon: "fab fa-github"
     items:
       - name: "Docker HUB"
         logo: "assets/tools/sample2.png"
