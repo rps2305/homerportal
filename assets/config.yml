@@ -497,6 +497,12 @@ services:
   - name: "Apple"
     icon: "fab fa-apple"
     items:
+      - name: "HomeBrew"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Homebrew installs the stuff you need that Apple didn’t."
+        tag: "Apple"
+        url: "https://brew.sh"
+        target: "_blank" # optional html a tag target attribute
       - name: "iPhone Wiki - Models"
         logo: "assets/tools/sample2.png"
         subtitle: "Apple Models, Indentifiers, A-numbers"
