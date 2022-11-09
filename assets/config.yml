@@ -189,7 +189,7 @@ services:
         url: "https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022"
         target: "_blank" # optional html a tag target attribute
   - name: "Dummy Content / Generators"
-    icon: "fa-solid fa-folder-grid"
+    icon: "fa fa-shower"
     items:
       - name: "HexColorCodes"
         logo: "assets/tools/sample.png"
@@ -228,7 +228,7 @@ services:
         url: "https://realfavicongenerator.net"
         target: "_blank" # optional html a tag target attribute
   - name: "Security Checks"
-    icon: "fa-solid fa-camera-cctv"
+    icon: "fa fa-shield"
     items:
       - name: "Website Scanner"
         logo: "assets/icons/paperless.png"
@@ -267,7 +267,7 @@ services:
         url: "https://www.ipvoid.com/gzip-test/"
         target: "_blank" # optional html a tag target attribute
   - name: "DNS / IP"
-    icon: "fa fa-address-book"
+    icon: "fa fa-desktop"
     items:
       - name: "DNS SiteChecker"
         logo: "assets/tools/sample.png"
@@ -306,7 +306,7 @@ services:
         url: "https://dnslytics.com/email-test"
         target: "_blank" # optional html a tag target attribute
   - name: "Resources"
-    icon: "fas fa-cloud"
+    icon: "fas fa-book"
     items:
       - name: "whatwebcando.today"
         logo: "assets/tools/sample.png"
@@ -321,7 +321,7 @@ services:
         url: "https://www.pwabuilder.com"
         target: "_blank" # optional html a tag target attribute
   - name: "HTML and CSS"
-    icon: "fas fa-cloud"
+    icon: "fas fa-code"
     items:
       - name: "W3C Validator"
         logo: "assets/tools/sample.png"
