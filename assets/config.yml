@@ -137,6 +137,19 @@ services:
         subtitle: "Ondersteunt je pagina uitgebreide resultaten?"
         tag: "SEO"
         url: "https://search.google.com/test/rich-results"
+        target: "_blank" # optional html a tag target attribute
+      - name: "iCal Validator"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Validate .ics"
+        tag: "Validator"
+        url: "https://icalendar.org/validator.html"
+        target: "_blank" # optional html a tag target attribute
+      - name: "VirusTotal"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Check files online on malware"
+        tag: "Validator"
+        url: "https://Virustotal.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Content"
     icon: "fas fa-book"
     items:
@@ -163,6 +176,12 @@ services:
         subtitle: "Find illustrations for projects"
         tag: "app"
         url: "https://undraw.co/search"
+      - name: "Mobile SEO Guide 2023"
+        logo: "assets/icons/box.png"
+        subtitle: "Mobile SEO Guide 2023"
+        tag: "SEO"
+        url: "https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022"
+        target: "_blank" # optional html a tag target attribute
   - name: "Dummy Content / Generators"
     icon: "fa-solid fa-folder-grid"
     items:
@@ -216,12 +235,6 @@ services:
         subtitle: "Test connectivity with MS Products"
         tag: "app"
         url: "https://testconnectivity.microsoft.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "VERIFY HTTP/2 SUPPORT"
-        logo: "assets/icons/paperless.png"
-        subtitle: "Troubleshoot website, network, and CDN issues for fast resolutions."
-        tag: "HTTP"
-        url: "https://tools.keycdn.com/http2-test"
         target: "_blank" # optional html a tag target attribute
       - name: "Mozilla Observatory"
         logo: "assets/icons/paperless.png"
@@ -328,6 +341,24 @@ services:
         tag: "Web"
         url: "https://ctrlq.org/encode/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Word to HTML"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Cleanup HTML from Word"
+        tag: "Web"
+        url: "https://wordhtml.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Strip HTML"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Strip all html from text"
+        tag: "Web"
+        url: "https://www.striphtml.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "CyberChef"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Convert everything"
+        tag: "Web"
+        url: "https://gchq.github.io/CyberChef/"
+        target: "_blank" # optional html a tag target attribute
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -361,6 +392,12 @@ services:
         tag: "JSON"
         url: "https://geekflare.com/json-online-tools/"
         target: "_blank" # optional html a tag target attribute
+      - name: "JSON2Table"
+        logo: "assets/tools/sample2.png"
+        subtitle: "JSON to table"
+        tag: "JSON"
+        url: "http://json2table.com/#"
+        target: "_blank" # optional html a tag target attribute
   - name: "Apache / NGinx"
     icon: "fab fa-cloudflare"
     items:
@@ -376,6 +413,12 @@ services:
         tag: "app"
         url: "https://www.seochecker.it/pwa-tester-online"
         target: "_blank" # optional html a tag target attribute
+      - name: "VERIFY HTTP/2 SUPPORT"
+        logo: "assets/icons/paperless.png"
+        subtitle: "Troubleshoot website, network, and CDN issues for fast resolutions."
+        tag: "HTTP"
+        url: "https://tools.keycdn.com/http2-test"
+        target: "_blank" # optional html a tag target attribute
   - name: "Applications"
     icon: "fab fa-buffer"
     items:
@@ -390,6 +433,12 @@ services:
         subtitle: "Optimize JPG and PNG for the web"
         tag: "app"
         url: "https://tinypng.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Eredevisie iCal"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Dutch Football Eredivisie iCal"
+        tag: "app"
+        url: "https://maak-agenda.nl"
         target: "_blank" # optional html a tag target attribute
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
@@ -411,6 +460,18 @@ services:
         subtitle: "Learn to build and deploy your distributed applications easily to the cloud with Docker"
         tag: "Docker"
         url: "https://docker-curriculum.com/#introduction"
+        target: "_blank" # optional html a tag target attribute
+      - name: "LinuxServer.io"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Docker containers"
+        tag: "Docker"
+        url: "https://www.linuxserver.io"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Self-Hosting-Guide"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Self-Hosting-Guide on Github"
+        tag: "Docker"
+        url: "https://github.com/mikeroyal/Self-Hosting-Guide?utm_source=tldrnewsletter"
         target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
     icon: "fab fa-buffer"
@@ -436,6 +497,12 @@ services:
   - name: "Apple"
     icon: "fab fa-apple"
     items:
+      - name: "HomeBrew"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Homebrew installs the stuff you need that Apple didn’t."
+        tag: "Apple"
+        url: "https://brew.sh"
+        target: "_blank" # optional html a tag target attribute
       - name: "iPhone Wiki - Models"
         logo: "assets/tools/sample2.png"
         subtitle: "Apple Models, Indentifiers, A-numbers"
@@ -486,4 +553,37 @@ services:
         subtitle: "Command line reference: cmd, PowerShell, bash, macOS"
         tag: "Microsoft"
         url: "https://ss64.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "SharePointMaven"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Everything SharePoint"
+        tag: "SharePoint"
+        url: "https://sharepointmaven.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Technet Gallery"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Powershell scripts and more"
+        tag: "Microsoft"
+        url: "https://learn.microsoft.com/nl-nl/samples/browse/?redirectedfrom=TechNet-Gallery"
+        target: "_blank" # optional html a tag target attribute
+      - name: "No More Ransomware"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Everything Ransomware"
+        tag: "Security"
+        url: "https://www.nomoreransom.org/nl/index.html"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Privacy"
+    icon: "fa fa-address-book"
+    items:
+      - name: "Mine"
+        logo: "assets/tools/sample.png"
+        subtitle: "Be smarter with your personal data online"
+        tag: "Privacy"
+        url: "https://www.saymine.com/new-home"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Have I been powned?"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Check your e-mail address"
+        tag: "Security"
+        url: "https://haveibeenpwned.com"
         target: "_blank" # optional html a tag target attribute
