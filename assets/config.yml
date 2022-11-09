@@ -150,6 +150,12 @@ services:
         tag: "Validator"
         url: "https://Virustotal.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "BuiltWith"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Find out what websites are Built With"
+        tag: "Validator"
+        url: "https://builtwith.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Content"
     icon: "fas fa-book"
     items:
@@ -586,4 +592,19 @@ services:
         subtitle: "Check your e-mail address"
         tag: "Security"
         url: "https://haveibeenpwned.com"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Search"
+    icon: "fa fa-search"
+    items:
+      - name: "Google Search"
+        logo: "assets/tools/sample.png"
+        subtitle: "Google Webmaster Tools"
+        tag: "Search"
+        url: "https://search.google.com/search-console"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Bing Search"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Bing Search tools"
+        tag: "Search"
+        url: "https://www.bing.com/webmasters"
         target: "_blank" # optional html a tag target attribute
