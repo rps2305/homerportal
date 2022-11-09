@@ -475,6 +475,12 @@ services:
         tag: "Microsoft"
         url: "https://chocolatey.org/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Ninite"
+        logo: "assets/tools/ninite.png"
+        subtitle: "Install and Update All Your Programs at Once"
+        tag: "Windows"
+        url: "https://ninite.com"
+        target: "_blank" # optional html a tag target attribute
       - name: "SS64"
         logo: "assets/tools/sample2.png"
         subtitle: "Command line reference: cmd, PowerShell, bash, macOS"
