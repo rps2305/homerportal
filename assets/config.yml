@@ -440,6 +440,12 @@ services:
         tag: "app"
         url: "https://tinypng.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "TinEye Reverse Image Search"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Find better version of image"
+        tag: "app"
+        url: "https://tineye.com/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Eredevisie iCal"
         logo: "assets/tools/sample2.png"
         subtitle: "Dutch Football Eredivisie iCal"
@@ -535,6 +541,12 @@ services:
         subtitle: "servicecentrum voor volumelicenties"
         tag: "Microsoft"
         url: "https://www.microsoft.com/Licensing/servicecenter/default.aspx"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Microsoft Portals"
+        logo: "assets/tools/sample2.png"
+        subtitle: "All Microsoft portals Azure, O365 etc,"
+        tag: "Microsoft"
+        url: "http://msportals.io"
         target: "_blank" # optional html a tag target attribute
       - name: "Microsoft Office 365 Info"
         logo: "assets/tools/sample2.png"
