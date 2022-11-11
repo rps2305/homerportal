@@ -49,18 +49,20 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
-    icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+  - name: "My Homepage"
+    icon: "fab fa-house"
+    url: "https://www.ronaldpunt.nl"
     target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
+  - name: "Puntuale"
     icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
+    url: "https://puntuale.nl"
+    target: "_blank" # optional html a tag target attribute
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
-  - name: "another page!"
-    icon: "fas fa-file-alt"
-    url: "#additionnal-page"
+  - name: "Perfect Mojito"
+    icon: "fas fa-blender"
+    url: "https://www.perfect-mojito.nl"
+    target: "_blank" # optional html a tag target attribute
 
 # Services
 # First level array represent a group.
