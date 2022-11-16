@@ -229,6 +229,12 @@ services:
         tag: "app"
         url: "https://realfavicongenerator.net"
         target: "_blank" # optional html a tag target attribute
+      - name: "Lorem ipsum"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Lorem ipsum is placeholder text"
+        tag: "app"
+        url: "https://loremipsum.io"
+        target: "_blank" # optional html a tag target attribute
   - name: "Security Checks"
     icon: "fa fa-shield"
     items:
@@ -321,6 +327,11 @@ services:
         subtitle: "Helping developers build and publish PWAs"
         tag: "PWA"
         url: "https://www.pwabuilder.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Information is beautiful"
+        logo: "assets/tools/information-is-beautiful-logo-flower.svg"
+        tag: "INFO"
+        url: "https://informationisbeautiful.net"
         target: "_blank" # optional html a tag target attribute
   - name: "HTML and CSS"
     icon: "fas fa-code"
@@ -579,6 +590,18 @@ services:
         subtitle: "Everything SharePoint"
         tag: "SharePoint"
         url: "https://sharepointmaven.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "SharePoint Diary"
+        logo: "assets/tools/Sharepoint-diary-logo.png"
+        subtitle: "Salaudeen Rajack's SharePoint Experiences!"
+        tag: "SharePoint"
+        url: "https://www.sharepointdiary.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Microsoft 365 Community"
+        logo: "assets/tools/31443929.png"
+        subtitle: "Microsoft 365 Community open-source projects and samples"
+        tag: "SharePoint"
+        url: "https://github.com/pnp"
         target: "_blank" # optional html a tag target attribute
       - name: "Technet Gallery"
         logo: "assets/tools/sample2.png"
