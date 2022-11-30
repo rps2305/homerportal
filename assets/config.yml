@@ -459,11 +459,17 @@ services:
         tag: "app"
         url: "https://tineye.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Eredevisie iCal"
+      - name: "Eredivisie iCal"
         logo: "assets/tools/sample2.png"
         subtitle: "Dutch Football Eredivisie iCal"
         tag: "app"
         url: "https://maak-agenda.nl"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Radio Garden"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Global Radio"
+        tag: "app"
+        url: "http://radio.garden/visit/bayamo/9x_j3ZkV"
         target: "_blank" # optional html a tag target attribute
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
@@ -630,13 +636,13 @@ services:
         tag: "Security"
         url: "https://haveibeenpwned.com"
         target: "_blank" # optional html a tag target attribute
-  - name: "Search"
+  - name: "Search Portals"
     icon: "fa fa-search"
     items:
       - name: "Google Search"
         logo: "assets/tools/sample.png"
         subtitle: "Google Webmaster Tools"
-        tag: "Search"
+        tag: "Google"
         url: "https://search.google.com/search-console"
         target: "_blank" # optional html a tag target attribute
       - name: "Bing Search"
@@ -644,4 +650,10 @@ services:
         subtitle: "Bing Search tools"
         tag: "Search"
         url: "https://www.bing.com/webmasters"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Google Analytics Portal"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Login for GA"
+        tag: "Google"
+        url: "https://analytics.google.com/analytics/web/"
         target: "_blank" # optional html a tag target attribute
