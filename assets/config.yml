@@ -158,6 +158,12 @@ services:
         tag: "Validator"
         url: "https://builtwith.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "LatLong.net"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Latitude and Longitude Finder"
+        tag: "Validator"
+        url: "https://www.latlong.net"
+        target: "_blank" # optional html a tag target attribute
   - name: "Content"
     icon: "fas fa-book"
     items:
