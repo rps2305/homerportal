@@ -184,6 +184,12 @@ services:
         tag: "SEO"
         url: "https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022"
         target: "_blank" # optional html a tag target attribute
+      - name: "Unsplash"
+        logo: "assets/icons/box.png"
+        subtitle: "Beautiful Free Images & Pictures"
+        tag: "Images"
+        url: "https://unsplash.com/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Dummy Content / Generators"
     icon: "fa fa-shower"
     items:
@@ -471,12 +477,18 @@ services:
         tag: "app"
         url: "http://radio.garden/visit/bayamo/9x_j3ZkV"
         target: "_blank" # optional html a tag target attribute
-       - name: "PhotoFunia"
+      - name: "PhotoFunia"
         logo: "assets/tools/sample2.png"
         subtitle: "Free pic editor online with library of picture effects & photo filters"
         tag: "app"
         url: "https://photofunia.com/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Cleanup.pictures"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Remove objects, people, text and defects from any picture for free"
+        tag: "app"
+        url: "https://cleanup.pictures/"
+        target: "_blank" # optional html a tag target attribute        
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
