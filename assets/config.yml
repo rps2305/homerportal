@@ -339,6 +339,11 @@ services:
         tag: "INFO"
         url: "https://informationisbeautiful.net"
         target: "_blank" # optional html a tag target attribute
+      - name: "MarkDown Cheatsheet"
+        logo: "assets/tools/information-is-beautiful-logo-flower.svg"
+        tag: "MD"
+        url: "https://www.markdownguide.org/cheat-sheet/"
+        target: "_blank" # optional html a tag target attribute        
   - name: "HTML and CSS"
     icon: "fas fa-code"
     items:
@@ -488,7 +493,13 @@ services:
         subtitle: "Remove objects, people, text and defects from any picture for free"
         tag: "app"
         url: "https://cleanup.pictures/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
+      - name: "SaveFrom.net - Instagram"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Download Instagram Videos, Photos & Reels - SaveFrom.net"
+        tag: "app"
+        url: "https://en.savefrom.net/274/download-from-instagram"
+        target: "_blank" # optional html a tag target attribute          
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
