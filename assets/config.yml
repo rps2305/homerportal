@@ -95,23 +95,11 @@ services:
         tag: "SEO"
         url: "https://pagespeed.web.dev"
         target: "_blank" # optional html a tag target attribute
-      - name: "SiteChecker"
-        logo: "assets/icons/box.png"
-        subtitle: "SEO"
-        tag: "SEO"
-        url: "https://sitechecker.pro"
-        target: "_blank" # optional html a tag target attribute
       - name: "Hey Meta"
         logo: "assets/icons/box.png"
         subtitle: "Check your metatags"
         tag: "SEO"
         url: "https://www.heymeta.com"
-        target: "_blank" # optional html a tag target attribute
-      - name: "SEO Check"
-        logo: "assets/icons/box.png"
-        subtitle: "SEO CHECK – Free Tools to Improve Your Rankings"
-        tag: "SEO"
-        url: "https://www.seocheck.io"
         target: "_blank" # optional html a tag target attribute
       - name: "SEO Site CheckUp"
         logo: "assets/icons/box.png"
@@ -319,6 +307,12 @@ services:
         tag: "SMTP"
         url: "https://dnslytics.com/email-test"
         target: "_blank" # optional html a tag target attribute
+      - name: "SPFToolbox"
+        logo: "assets/tools/sample2.png"
+        subtitle: "SPF Toolbox was created to be an easy, free open source way for people to get information about their domain. Please click the link in the top right to let me know if you have any questions or suggestions for the app."
+        tag: "SMTP"
+        url: "https://spftoolbox.com/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Resources"
     icon: "fas fa-book"
     items:
@@ -477,6 +471,12 @@ services:
         tag: "app"
         url: "http://radio.garden/visit/bayamo/9x_j3ZkV"
         target: "_blank" # optional html a tag target attribute
+       - name: "PhotoFunia"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Free pic editor online with library of picture effects & photo filters"
+        tag: "app"
+        url: "https://photofunia.com/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
@@ -627,6 +627,12 @@ services:
         tag: "Security"
         url: "https://www.nomoreransom.org/nl/index.html"
         target: "_blank" # optional html a tag target attribute
+      - name: "MOAP.MS"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Mother of all Portals"
+        tag: "Security"
+        url: "https://moap.ms"
+        target: "_blank" # optional html a tag target attribute        
   - name: "Privacy"
     icon: "fa fa-address-book"
     items:
@@ -663,3 +669,21 @@ services:
         tag: "Google"
         url: "https://analytics.google.com/analytics/web/"
         target: "_blank" # optional html a tag target attribute
+  - name: "Blog"
+    icon: "fa fa-search"
+    items:
+      - name: "Smashing Magazine"
+        logo: "assets/tools/sample.png"
+        subtitle: "About things web"
+        tag: "Web"
+        url: "https://www.smashingmagazine.com/"
+      - name: "Webwash BLog"
+        logo: "assets/tools/sample.png"
+        subtitle: "About things web"
+        tag: "Web"
+        url: "https://www.webwash.net/blog/"
+      - name: "Dennis Notes"
+        logo: "assets/tools/sample.png"
+        subtitle: "Linux"
+        tag: "Linux"
+        url: "https://dennisnotes.com"         
