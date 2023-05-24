@@ -499,7 +499,19 @@ services:
         subtitle: "Download Instagram Videos, Photos & Reels - SaveFrom.net"
         tag: "app"
         url: "https://en.savefrom.net/274/download-from-instagram"
-        target: "_blank" # optional html a tag target attribute          
+        target: "_blank" # optional html a tag target attribute
+      - name: "SaveInsta - Instagram"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Instagram story download"
+        tag: "app"
+        url: "https://saveinsta.app/en/instagram-story-download"
+        target: "_blank" # optional html a tag target attribute
+      - name: "GlooMaps"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Visual sitemaps made easy"
+        tag: "app"
+        url: "https://www.gloomaps.com/"
+        target: "_blank" # optional html a tag target attribute 
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
