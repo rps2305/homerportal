@@ -343,7 +343,13 @@ services:
         logo: "assets/tools/information-is-beautiful-logo-flower.svg"
         tag: "MD"
         url: "https://www.markdownguide.org/cheat-sheet/"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
+      - name: "Phind"
+        logo: "assets/tools/information-is-beautiful-logo-flower.svg"
+        subtitle: "The AI search engine for developers."
+        tag: "AI"
+        url: "https://www.phind.com"
+        target: "_blank" # optional html a tag target attribute  
   - name: "HTML and CSS"
     icon: "fas fa-code"
     items:
@@ -667,7 +673,13 @@ services:
         subtitle: "Mother of all Portals"
         tag: "Security"
         url: "https://moap.ms"
-        target: "_blank" # optional html a tag target attribute        
+        target: "_blank" # optional html a tag target attribute
+      - name: "Microsoft DEV Home"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Dev Home is a new control center for Windows providing the ability to monitor projects in your dashboard"
+        tag: "DEV"
+        url: "https://learn.microsoft.com/en-us/windows/dev-home/"
+        target: "_blank" # optional html a tag target attribute 
   - name: "Privacy"
     icon: "fa fa-address-book"
     items:
