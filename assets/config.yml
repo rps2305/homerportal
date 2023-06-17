@@ -517,6 +517,12 @@ services:
         subtitle: "Visual sitemaps made easy"
         tag: "app"
         url: "https://www.gloomaps.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Free Online Database Diagram Tool"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Design ER diagrams by just typing code. It's quick! Built for modellers and data analysts."
+        tag: "app"
+        url: "https://databasediagram.com/"
         target: "_blank" # optional html a tag target attribute 
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
@@ -738,4 +744,19 @@ services:
         logo: "assets/tools/sample.png"
         subtitle: "Convert CSS code to Tailwindcss syntax in real time"
         tag: "Tailwind"
-        url: "https://github.com/hymhub/css-to-tailwind"          
+        url: "https://github.com/hymhub/css-to-tailwind" 
+  - name: "AI"
+    icon: "fa fa-address-book"
+    items:
+      - name: "Stable Diffusion Playground"
+        logo: "assets/tools/sample.png"
+        subtitle: "Just enter your prompt and click the generate button. No code required to generate your image!"
+        tag: "AI"
+        url: "https://stablediffusionweb.com/#demo"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Perplexity AI"
+        logo: "assets/tools/sample.png"
+        subtitle: "Be smarter with your personal data online"
+        tag: "AI"
+        url: "https://www.perplexity.ai/"
+        target: "_blank" # optional html a tag target attribute
