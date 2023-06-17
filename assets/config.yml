@@ -760,3 +760,33 @@ services:
         tag: "AI"
         url: "https://www.perplexity.ai/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Microsoft Designer"
+        logo: "assets/tools/sample.png"
+        subtitle: "Describe the design you'd like to create"
+        tag: "AI"
+        url: "https://designer.microsoft.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Background"
+        logo: "assets/tools/sample.png"
+        subtitle: "Get Amazing AI Cover Images In Seconds!"
+        tag: "AI"
+        url: "https://www.background.lol/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "cutout.pro"
+        logo: "assets/tools/sample.png"
+        subtitle: "Photo editing with AI"
+        tag: "AI"
+        url: "https://www.cutout.pro"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Video2Recipe"
+        logo: "assets/tools/sample.png"
+        subtitle: "Convert Your Favorite Cooking Videos To Recipes"
+        tag: "AI"
+        url: "https://video2recipe.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Google Bard"
+        logo: "assets/tools/sample.png"
+        subtitle: "Google's AI"
+        tag: "AI"
+        url: "https://bard.google.com"
+        target: "_blank" # optional html a tag target attribute
