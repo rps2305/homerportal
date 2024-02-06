@@ -349,7 +349,13 @@ services:
         subtitle: "The AI search engine for developers."
         tag: "AI"
         url: "https://www.phind.com"
-        target: "_blank" # optional html a tag target attribute  
+        target: "_blank" # optional html a tag target attribute
+      - name: "404 Illustrations"
+        logo: "assets/tools/information-is-beautiful-logo-flower.svg"
+        subtitle: "Ready to use img for your 404 page"
+        tag: "AI"
+        url: "https://www.kapwing.com/404-illustrations?utm_source=tldrwebdev"
+        target: "_blank" # optional html a tag target attribute   
   - name: "HTML and CSS"
     icon: "fas fa-code"
     items:
@@ -395,6 +401,12 @@ services:
         tag: "Web"
         url: "https://gchq.github.io/CyberChef/"
         target: "_blank" # optional html a tag target attribute
+      - name: "ICOvert"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Convert icons"
+        tag: "Web"
+        url: "https://icoconvert.com"
+        target: "_blank" # optional html a tag target attribute       
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -434,6 +446,12 @@ services:
         tag: "JSON"
         url: "http://json2table.com/#"
         target: "_blank" # optional html a tag target attribute
+      - name: "JSON Generator"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Easily generate mock JSON data using intuitive templates via API or UI"
+        tag: "JSON"
+        url: "https://www.jsongenerator.io"
+        target: "_blank" # optional html a tag target attribute       
   - name: "Apache / NGinx"
     icon: "fab fa-cloudflare"
     items:
@@ -523,7 +541,25 @@ services:
         subtitle: "Design ER diagrams by just typing code. It's quick! Built for modellers and data analysts."
         tag: "app"
         url: "https://databasediagram.com/"
-        target: "_blank" # optional html a tag target attribute 
+        target: "_blank" # optional html a tag target attribute
+      - name: "Visual Studio Code"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Online"
+        tag: "app"
+        url: "https://vscode.dev"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ShareCAD"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Free online service to view CAD and 3D"
+        tag: "app"
+        url: "https://www.sharecad.org"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Typograms"
+        logo: "assets/tools/sample2.png"
+        subtitle: "like markdown for diagrams"
+        tag: "app"
+        url: "https://google.github.io/typograms/"
+        target: "_blank" # optional html a tag target attribute      
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
@@ -701,6 +737,12 @@ services:
         tag: "Security"
         url: "https://haveibeenpwned.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "Ligalio"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Generate your customised privacy policy in minutes"
+        tag: "Privacy"
+        url: "https://ligalio.com"
+        target: "_blank" # optional html a tag target attribute       
   - name: "Search Portals"
     icon: "fa fa-search"
     items:
@@ -784,9 +826,9 @@ services:
         tag: "AI"
         url: "https://video2recipe.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Google Bard"
+      - name: "Looka"
         logo: "assets/tools/sample.png"
-        subtitle: "Google's AI"
+        subtitle: "Design your own beautiful brand"
         tag: "AI"
-        url: "https://bard.google.com"
+        url: "https://looka.com"
         target: "_blank" # optional html a tag target attribute
