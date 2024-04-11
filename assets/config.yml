@@ -49,7 +49,7 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "My Homepage"
+  - name: "My Homepage!"
     icon: "fa fa-house"
     url: "https://www.ronaldpunt.nl"
     target: "_blank" # optional html a tag target attribute
