@@ -635,6 +635,33 @@ services:
         tag: "Proxmox"
         url: "https://tteck.github.io/Proxmox/"
         target: "_blank" # optional html a tag target attribute
+  - name: "Tailwind CSS"
+    icon: "fas fa-book"
+    items:
+      - name: "Tailwind CSS Play"
+        logo: "assets/tools/sample.png"
+        subtitle: "An advanced online playground for Tailwind CSS"
+        tag: "Tailwind CSS"
+        url: "https://play.tailwindcss.com"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Tailwind CSS Color Generator"
+        logo: "assets/tools/sample.png"
+        subtitle: "Tailwind CSS Color Generator"
+        tag: "Tailwind CSS"
+        url: "https://uicolors.app/create"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Tailwind CSS Responsive Cards"
+        logo: "assets/tools/sample.png"
+        subtitle: "Tailwind CSS Responsive Cards"
+        tag: "Tailwind CSS"
+        url: "https://tailwind-cards.netlify.app"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Tailwind CSS blocks"
+        logo: "assets/tools/sample.png"
+        subtitle: "Tailwind CSS components"
+        tag: "Tailwind CSS"
+        url: "https://tailblocks.cc"
+        target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
     icon: "fab fa-buffer"
     items:
