@@ -662,6 +662,12 @@ services:
         tag: "Tailwind CSS"
         url: "https://tailblocks.cc"
         target: "_blank" # optional html a tag target attribute
+      - name: "Tailwind CSS Snippets vscode extension!)"
+        logo: "assets/tools/sample.png"
+        subtitle: "All Snippets Shortcuts"
+        tag: "Tailwind CSS"
+        url: "https://tws.zarifprogrammer.com/snippets"
+        target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
     icon: "fab fa-buffer"
     items:
