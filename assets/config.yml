@@ -644,11 +644,11 @@ services:
         tag: "Tailwind CSS"
         url: "https://play.tailwindcss.com"
         target: "_blank" # optional html a tag target attribute
-      - name: "Tailwind CSS Color Generator"
+      - name: "Tailwind CSS Palette Generator "
         logo: "assets/tools/sample.png"
-        subtitle: "Tailwind CSS Color Generator"
+        subtitle: "Palette Generator and API for Tailwind CSS"
         tag: "Tailwind CSS"
-        url: "https://uicolors.app/create"
+        url: "https://www.tints.dev/brand/2522FC"
         target: "_blank" # optional html a tag target attribute
       - name: "Tailwind CSS Responsive Cards"
         logo: "assets/tools/sample.png"
