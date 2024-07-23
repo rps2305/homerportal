@@ -113,6 +113,12 @@ services:
         tag: "SEO"
         url: "https://www.seoptimer.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "Free SEO Checker"
+        logo: "assets/icons/box.png"
+        subtitle: "Free SEO Checker"
+        tag: "SEO"
+        url: "https://www.seobility.net/en/seocheck/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Validators"
     icon: "fa fa-check-circle"
     items:
@@ -152,6 +158,12 @@ services:
         tag: "Validator"
         url: "https://www.latlong.net"
         target: "_blank" # optional html a tag target attribute
+      - name: "Who Can use?"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Who can use this color combination?"
+        tag: "Validator"
+        url: "https://www.whocanuse.com"
+        target: "_blank" # optional html a tag target attribute
   - name: "Content"
     icon: "fas fa-book"
     items:
@@ -189,6 +201,12 @@ services:
         subtitle: "Beautiful Free Images & Pictures"
         tag: "Images"
         url: "https://unsplash.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ligalio."
+        logo: "assets/icons/box.png"
+        subtitle: "Generate your customised privacy policy in minutes"
+        tag: "Images"
+        url: "https://ligalio.com"
         target: "_blank" # optional html a tag target attribute
   - name: "Dummy Content / Generators"
     icon: "fa fa-shower"
@@ -328,6 +346,12 @@ services:
         tag: "app"
         url: "https://whatwebcando.today"
         target: "_blank" # optional html a tag target attribute
+      - name: "Baseline"
+        logo: "assets/tools/sample.png"
+        subtitle: "Web Platform Baseline brings clarity to information about browser support for web platform features."
+        tag: "app"
+        url: "https://web.dev/baseline/"
+        target: "_blank" # optional html a tag target attribute
       - name: "PWA Builder"
         logo: "assets/tools/sample2.png"
         subtitle: "Helping developers build and publish PWAs"
@@ -406,7 +430,13 @@ services:
         subtitle: "Convert icons"
         tag: "Web"
         url: "https://icoconvert.com"
-        target: "_blank" # optional html a tag target attribute       
+        target: "_blank" # optional html a tag target attribute
+      - name: "Gradient Generator"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Beautiful, lush gradients"
+        tag: "Web"
+        url: "https://www.joshwcomeau.com/gradient-generator/"
+        target: "_blank" # optional html a tag target attribute            
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -451,7 +481,13 @@ services:
         subtitle: "Easily generate mock JSON data using intuitive templates via API or UI"
         tag: "JSON"
         url: "https://www.jsongenerator.io"
-        target: "_blank" # optional html a tag target attribute       
+        target: "_blank" # optional html a tag target attribute
+      - name: "Dummy JSON"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Work Faster!! Develop, Build, Test."
+        tag: "JSON"
+        url: "https://dummyjson.com"
+        target: "_blank" # optional html a tag target attribute          
   - name: "Apache / NGinx"
     icon: "fab fa-cloudflare"
     items:
@@ -592,6 +628,12 @@ services:
         subtitle: "Self-Hosting-Guide on Github"
         tag: "Docker"
         url: "https://github.com/mikeroyal/Self-Hosting-Guide?utm_source=tldrnewsletter"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Proxmox Helper Scripts"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Scripts for Optimizing your HomeLab"
+        tag: "Proxmox"
+        url: "https://tteck.github.io/Proxmox/"
         target: "_blank" # optional html a tag target attribute
   - name: "Benchmarks"
     icon: "fab fa-buffer"
