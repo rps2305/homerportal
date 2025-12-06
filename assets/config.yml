@@ -264,7 +264,7 @@ services:
   icon: fa fa-shield
   items:
   - name: Website Scanner
-    logo: assets/icons/paperless.png
+    logo: assets/icons/favicons/pentest-tools.com.png
     subtitle: Discover common web application vulnerabilities and server configuration
       issues.
     tag: Website
@@ -277,7 +277,7 @@ services:
     url: https://testconnectivity.microsoft.com/
     target: _blank
   - name: Mozilla Observatory
-    logo: assets/icons/paperless.png
+    logo: assets/icons/favicons/observatory.mozilla.org.png
     subtitle: "Test your site\u2019s HTTP headers, including CSP and HSTS, to find\
       \ security problems and get actionable recommendations to make your website\
       \ more secure. Test other websites to see how you compare."
@@ -285,7 +285,7 @@ services:
     url: https://observatory.mozilla.org
     target: _blank
   - name: Sucuri
-    logo: assets/icons/paperless.png
+    logo: assets/icons/favicons/sitecheck.sucuri.net.png
     subtitle: SiteCheck is a website security scanner that checks any site, link,
       or URL for malware, viruses, blacklist status, seo spam, or malicious code.
       Check your website safety for free with Sucuri Security.
@@ -293,13 +293,13 @@ services:
     url: https://sitecheck.sucuri.net
     target: _blank
   - name: SSL Labs
-    logo: assets/icons/paperless.png
+    logo: assets/icons/favicons/www.ssllabs.com.png
     subtitle: A comprehensive free SSL test for your public web servers.
     tag: Website
     url: https://www.ssllabs.com/ssltest/
     target: _blank
   - name: Gzip Compression Test
-    logo: assets/icons/paperless.png
+    logo: assets/icons/favicons/www.ipvoid.com.png
     subtitle: 'This online Gzip test tool allows you to check if Gzip compression
       is enabled on your website. Quickly test if your server is using Gzip compression
       (i.e Content-Encoding: gzip) to improve page load speed.'
@@ -383,32 +383,32 @@ services:
     url: https://www.pwabuilder.com
     target: _blank
   - name: Information is beautiful
-    logo: assets/tools/information-is-beautiful-logo-flower.svg
+    logo: assets/icons/favicons/informationisbeautiful.net.png
     tag: INFO
     url: https://informationisbeautiful.net
     target: _blank
     subtitle: Distilling the world's data, information & knowledge into beautiful
       infographics & visualizations
   - name: MarkDown Cheatsheet
-    logo: assets/tools/information-is-beautiful-logo-flower.svg
+    logo: assets/icons/favicons/www.markdownguide.org.png
     tag: MD
     url: https://www.markdownguide.org/cheat-sheet/
     target: _blank
     subtitle: A quick reference to the Markdown syntax.
   - name: Phind
-    logo: assets/tools/information-is-beautiful-logo-flower.svg
+    logo: assets/icons/favicons/www.phind.com.png
     subtitle: The AI search engine for developers.
     tag: AI
     url: https://www.phind.com
     target: _blank
   - name: 404 Illustrations
-    logo: assets/tools/information-is-beautiful-logo-flower.svg
+    logo: assets/icons/favicons/www.kapwing.com.png
     subtitle: Ready to use img for your 404 page
     tag: AI
     url: https://www.kapwing.com/404-illustrations
     target: _blank
   - name: cheat.sh
-    logo: assets/tools/information-is-beautiful-logo-flower.svg
+    logo: assets/icons/favicons/github.com.png
     subtitle: the only cheat sheet you need. Contribute to chubin/cheat.sh development
       by creating an account on GitHub.
     tag: Manuals
@@ -487,7 +487,7 @@ services:
     url: https://wave.webaim.org
     target: _blank
   - name: google-webfonts-helper
-    logo: assets/icons/favicons/gwfh.mranftl.com.png
+    logo: assets/icons/box.png
     subtitle: A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff
       and woff2 files + CSS snippets!
     tag: Web
@@ -947,7 +947,7 @@ services:
   items:
   - name: Mine
     logo: assets/icons/favicons/www.saymine.com.png
-    subtitle: Be smarter with your personal data online!
+    subtitle: Be smarter with your personal data online!!
     tag: Privacy
     url: https://www.saymine.com/new-home
     target: _blank
