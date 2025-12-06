@@ -438,12 +438,6 @@ services:
     tag: Web
     url: https://caniuse.com
     target: _blank
-  - name: Encode e-mail address
-    logo: assets/icons/box.png
-    subtitle: Fighting SPAM
-    tag: Web
-    url: https://ctrlq.org/encode/
-    target: _blank
   - name: Word to HTML
     logo: assets/icons/favicons/wordhtml.com.png
     subtitle: Free online Word to HTML converter with code cleaning features and easy
@@ -945,12 +939,6 @@ services:
 - name: Privacy
   icon: fa fa-address-book
   items:
-  - name: Mine
-    logo: assets/icons/favicons/www.saymine.com.png
-    subtitle: Be smarter with your personal data online!!
-    tag: Privacy
-    url: https://www.saymine.com/new-home
-    target: _blank
   - name: Have I been powned?
     logo: assets/icons/favicons/haveibeenpwned.com.png
     subtitle: Have I Been Pwned allows you to check whether your email address has
@@ -1058,12 +1046,6 @@ services:
       your idea and create something unique for you.
     tag: AI
     url: https://designer.microsoft.com/
-    target: _blank
-  - name: Background
-    logo: assets/icons/favicons/www.background.lol.png
-    subtitle: Get Amazing AI Cover Images In Seconds!
-    tag: AI
-    url: https://www.background.lol/
     target: _blank
   - name: cutout.pro
     logo: assets/icons/favicons/www.cutout.pro.png
