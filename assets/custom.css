@@ -1,0 +1,15 @@
+/* Local overrides for layout tweaks */
+
+/* Allow long subtitles to wrap instead of truncating with ellipsis */
+body #main-section .subtitle {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  word-break: break-word;
+}
+
+/* Let cards expand with wrapped text instead of being locked to 85px */
+body .card-content {
+  height: auto;
+  min-height: 85px;
+}
