@@ -436,7 +436,13 @@ services:
         subtitle: "Beautiful, lush gradients"
         tag: "Web"
         url: "https://www.joshwcomeau.com/gradient-generator/"
-        target: "_blank" # optional html a tag target attribute            
+        target: "_blank" # optional html a tag target attribute       
+      - name: "WAVE"
+        logo: "assets/tools/sample2.png"
+        subtitle: "WAVE Web Accessibility Evaluation Tools"
+        tag: "Web"
+        url: "https://wave.webaim.org"
+        target: "_blank" # optional html a tag target attribute                  
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -595,7 +601,25 @@ services:
         subtitle: "like markdown for diagrams"
         tag: "app"
         url: "https://google.github.io/typograms/"
-        target: "_blank" # optional html a tag target attribute      
+        target: "_blank" # optional html a tag target attribute 
+      - name: "Autotracer.org"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Autotracer is a free online image vectorizer. It can convert raster images like JPEGs, GIFs and PNGs to scalable vector graphics (EPS, SVG, AI and PDF). No registration or email required."
+        tag: "app"
+        url: "https://autotracer.org/"
+        target: "_blank" # optional html a tag target attribute       
+      - name: "Threads Video Downloader"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Threads Video Downloader"
+        tag: "app"
+        url: "https://threadsdownloader.com"
+        target: "_blank" # optional html a tag target attribute   
+      - name: "Reddit Video Downloader - RapidSave"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Download Reddit videos with sound audio."
+        tag: "app"
+        url: "https://rapidsave.com/"
+        target: "_blank" # optional html a tag target attribute                
   - name: "Selfhosted / OSS"
     icon: "fab fa-github"
     items:
@@ -861,7 +885,12 @@ services:
         logo: "assets/tools/sample.png"
         subtitle: "Convert CSS code to Tailwindcss syntax in real time"
         tag: "Tailwind"
-        url: "https://github.com/hymhub/css-to-tailwind" 
+        url: "https://github.com/hymhub/css-to-tailwind"
+      - name: "How to Write a Great README"
+        logo: "assets/tools/sample.png"
+        subtitle: "Appsmith"
+        tag: "Tailwind"
+        url: "https://www.appsmith.com/blog/write-a-great-readme"         
   - name: "AI"
     icon: "fa fa-address-book"
     items:
