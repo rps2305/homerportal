@@ -378,8 +378,14 @@ services:
         logo: "assets/tools/information-is-beautiful-logo-flower.svg"
         subtitle: "Ready to use img for your 404 page"
         tag: "AI"
-        url: "https://www.kapwing.com/404-illustrations?utm_source=tldrwebdev"
-        target: "_blank" # optional html a tag target attribute   
+        url: "https://www.kapwing.com/404-illustrations"
+        target: "_blank" # optional html a tag target attribute  
+      - name: "cheat.sh"
+        logo: "assets/tools/information-is-beautiful-logo-flower.svg"
+        subtitle: "Unified access to the best community driven cheat sheets repositories of the world"
+        tag: "Manuals"
+        url: "https://github.com/chubin/cheat.sh"
+        target: "_blank" # optional html a tag target attribute       
   - name: "HTML and CSS"
     icon: "fas fa-code"
     items:
@@ -442,7 +448,13 @@ services:
         subtitle: "WAVE Web Accessibility Evaluation Tools"
         tag: "Web"
         url: "https://wave.webaim.org"
-        target: "_blank" # optional html a tag target attribute                  
+        target: "_blank" # optional html a tag target attribute      
+      - name: "google-webfonts-helper"
+        logo: "assets/tools/sample2.png"
+        subtitle: "A Hassle-Free Way to Self-Host Google Fonts"
+        tag: "Web"
+        url: "https://gwfh.mranftl.com/fonts"
+        target: "_blank" # optional html a tag target attribute                     
   - name: "JSON"
     icon: "fa fa-file"
     items:
@@ -493,7 +505,13 @@ services:
         subtitle: "Work Faster!! Develop, Build, Test."
         tag: "JSON"
         url: "https://dummyjson.com"
-        target: "_blank" # optional html a tag target attribute          
+        target: "_blank" # optional html a tag target attribute    
+      - name: "URL Encode and Decode Tool"
+        logo: "assets/tools/sample2.png"
+        subtitle: "URL Encode and Decode Tool"
+        tag: "URL"
+        url: "https://www.url-encode-decode.com/"
+        target: "_blank" # optional html a tag target attribute                  
   - name: "Apache / NGinx"
     icon: "fab fa-cloudflare"
     items:
@@ -821,6 +839,12 @@ services:
         tag: "DEV"
         url: "https://learn.microsoft.com/en-us/windows/dev-home/"
         target: "_blank" # optional html a tag target attribute 
+      - name: "WinWorld: Library"
+        logo: "assets/tools/sample2.png"
+        subtitle: "WinWorld: Library of Old Operating Systems and Software"
+        tag: "OS"
+        url: "https://winworldpc.com/library/operating-systems"
+        target: "_blank" # optional html a tag target attribute     
   - name: "Privacy"
     icon: "fa fa-address-book"
     items:
@@ -871,26 +895,37 @@ services:
         subtitle: "About things web"
         tag: "Web"
         url: "https://www.smashingmagazine.com/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Webwash BLog"
         logo: "assets/tools/sample.png"
         subtitle: "About things web"
         tag: "Web"
         url: "https://www.webwash.net/blog/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Dennis Notes"
         logo: "assets/tools/sample.png"
         subtitle: "Linux"
         tag: "Linux"
         url: "https://dennisnotes.com"   
+        target: "_blank" # optional html a tag target attribute
       - name: "hymhub/css-to-tailwind"
         logo: "assets/tools/sample.png"
         subtitle: "Convert CSS code to Tailwindcss syntax in real time"
         tag: "Tailwind"
         url: "https://github.com/hymhub/css-to-tailwind"
+        target: "_blank" # optional html a tag target attribute
       - name: "How to Write a Great README"
         logo: "assets/tools/sample.png"
         subtitle: "Appsmith"
-        tag: "Tailwind"
-        url: "https://www.appsmith.com/blog/write-a-great-readme"         
+        tag: "Markdown"
+        url: "https://www.appsmith.com/blog/write-a-great-readme"
+        target: "_blank" # optional html a tag target attribute    
+      - name: "THE ULTIMATE BEGINNER’S GUIDE TO MICROSOFT GRAPH"
+        logo: "assets/tools/sample.png"
+        subtitle: "Microsoft Graph"
+        tag: "Graph"
+        url: "https://laurakokkarinen.com/the-ultimate-beginners-guide-to-microsoft-graph/"
+        target: "_blank" # optional html a tag target attribute               
   - name: "AI"
     icon: "fa fa-address-book"
     items:
