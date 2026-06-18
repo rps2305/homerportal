@@ -30,7 +30,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link-hover: '#ffdd57'
 links:
-- name: My Homepage!
+- name: Homepage
   icon: fa fa-house
   url: https://www.ronaldpunt.nl
   target: _blank
@@ -49,20 +49,19 @@ services:
   - name: gtmetrix.com
     logo: assets/icons/favicons/gtmetrix.com.png
     subtitle: How fast does your website load?
-    tag: app
+    tag: Tool
     url: https://gtmetrix.com
     target: _blank
   - name: SEO Checker IT
     logo: assets/icons/favicons/www.seochecker.it.png
-    subtitle: Very fast and comprihensive SEO checker
+    subtitle: Fast, comprehensive SEO checker
     tag: SEO
     url: https://www.seochecker.it/
     target: _blank
   - name: Geekflare Tools for SEO, DNS etc.
     logo: assets/icons/favicons/geekflare.com.png
-    subtitle: Boost productivity and growth with Geekflare Tools, a comprehensive
-      suite of free tools for website optimization, SEO and business efficiency.
-    tag: Tools
+    subtitle: Website, SEO, DNS, and business utility tools
+    tag: Tool
     url: https://geekflare.com/tools
     target: _blank
   - name: Pagespeed Insights
@@ -86,17 +85,13 @@ services:
     target: _blank
   - name: SEOptimer
     logo: assets/icons/favicons/www.seoptimer.com.png
-    subtitle: Looking for the best SEO Audit Tool to analyze and grade your website?
-      SEOptimer is the web's best SEO Checker. Improve your website, rank better in
-      Search Engines and win more customers with beautiful SEO Reports. Audit your
-      SEO today!
+    subtitle: Analyze and grade website SEO performance
     tag: SEO
     url: https://www.seoptimer.com
     target: _blank
   - name: Free SEO Checker
     logo: assets/icons/favicons/www.seobility.net.png
-    subtitle: Instantly review your website for free with the SEO checker from Seobility
-      and get tips for a better search engine optimization and higher rankings.
+    subtitle: Review a site and get SEO improvement tips
     tag: SEO
     url: https://www.seobility.net/en/seocheck/
     target: _blank
@@ -124,9 +119,7 @@ services:
     target: _blank
   - name: iCal Validator
     logo: assets/icons/favicons/icalendar.org.png
-    subtitle: This site is devoted to promoting the iCalendar standard, which includes
-      specifications, resources, a validation tool and PHP library. iCalendar is an
-      open stan
+    subtitle: Validate iCalendar files and review iCalendar resources
     tag: Validator
     url: https://icalendar.org/validator.html
     target: _blank
@@ -145,16 +138,13 @@ services:
     target: _blank
   - name: LatLong.net
     logo: assets/icons/favicons/www.latlong.net.png
-    subtitle: Lat long is a geographic tool which helps you to get latitude and longitude
-      of a place or city and find gps coordinates on map, convert lat long, gps, dms
-      and utm.
+    subtitle: Find and convert latitude and longitude coordinates
     tag: Validator
     url: https://www.latlong.net
     target: _blank
   - name: Who Can use?
     logo: assets/icons/favicons/www.whocanuse.com.png
-    subtitle: A tool that brings attention and understanding to how color contrast
-      can affect people with different visual impairments.
+    subtitle: Preview how color contrast works for different users
     tag: Validator
     url: https://www.whocanuse.com
     target: _blank
@@ -170,106 +160,88 @@ services:
   - name: Pixabay
     logo: assets/icons/favicons/pixabay.com.png
     subtitle: Stunning free images & royalty free stock
-    tag: Stock
+    tag: Image
     url: https://pixabay.com/nl/
     target: _blank
   - name: Pexels
     logo: assets/icons/favicons/www.pexels.com.png
     subtitle: Free Stock Photos
-    tag: Stock
+    tag: Image
     url: https://www.pexels.com
     target: _blank
   - name: CleanPNG
     logo: assets/icons/favicons/www.cleanpng.com.png
-    subtitle: CleanPNG - HD png images and illustrations. Free unlimited download.
-      - CleanPNG
-    tag: app
+    subtitle: Search transparent PNG images and illustrations
+    tag: Image
     url: https://www.cleanpng.com
     target: _blank
   - name: unDraw
     logo: assets/icons/favicons/undraw.co.png
-    subtitle: Find the perfect open-source illustration for your project. Search through
-      thousands of customizable SVG illustrations.
-    tag: app
+    subtitle: Search customizable open-source SVG illustrations
+    tag: Image
     url: https://undraw.co/search
     target: _blank
   - name: Mobile SEO Guide 2023
     logo: assets/icons/favicons/www.link-assistant.com.png
-    subtitle: 70% of all websites are on mobile-first indexing. So, if you want to
-      rank on Google, your site MUST be mobile-friendly. Learn how in this 4-step
-      guide to mobile SEO.
+    subtitle: Practical guide to mobile SEO and indexing
     tag: SEO
     url: https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022
     target: _blank
   - name: Unsplash
     logo: assets/icons/favicons/unsplash.com.png
-    subtitle: Beautiful, free images and photos that you can download and use for
-      any project. Better than any royalty free or stock photos.
-    tag: Images
+    subtitle: Search free photos for web and design projects
+    tag: Image
     url: https://unsplash.com/
     target: _blank
-  - name: ligalio.
+  - name: ligalio
     logo: assets/icons/favicons/ligalio.com.png
-    subtitle: GDPR compliant privacy policy generator. Made by EU lawyers. Easy to
-      use and quick solution! Best for websites, apps, SMEs, blogs, ecommerce!
-    tag: Images
+    subtitle: GDPR privacy policy generator for websites and apps
+    tag: Privacy
     url: https://ligalio.com
     target: _blank
-- name: Dummy Content / Generators
+- name: Generators
   icon: fa fa-shower
   items:
   - name: HexColorCodes
     logo: assets/icons/favicons/hexcolorcodes.org.png
-    subtitle: Get HTML color codes, Hex color codes, RGB and HSL values with our color
-      picker, color chart and HTML color names. Let's go!
-    tag: Colors
+    subtitle: Pick colors and convert values across formats
+    tag: Color
     url: https://hexcolorcodes.org
     target: _blank
   - name: This Person Does Not Exist
     logo: assets/icons/favicons/thispersondoesnotexist.com.png
     subtitle: Random face generator
-    tag: app
+    tag: Tool
     url: https://thispersondoesnotexist.com
     target: _blank
   - name: randomuser.me
     logo: assets/icons/favicons/randomuser.me.png
-    subtitle: Random user generator is a FREE API for generating placeholder user
-      information. Get profile photos, names, and more. It's like Lorem Ipsum, for
-      people.
-    tag: app
+    subtitle: Generate placeholder user profiles and photos
+    tag: Tool
     url: https://randomuser.me
     target: _blank
   - name: Fake Person Generator
     logo: assets/icons/favicons/www.fakepersongenerator.com.png
-    subtitle: Generate random person(identity) from US, include name,address,phone,email,employment,family,personal
-      information like interest, online profile, brower, and more. Use for testing
-      as database.
-    tag: app
+    subtitle: Generate fake identity data for testing
+    tag: Tool
     url: https://www.fakepersongenerator.com
     target: _blank
   - name: Front-end Cheatsheets
     logo: assets/icons/favicons/cheatsheets.shecodes.io.png
-    subtitle: Start learning how to code today with SheCodes hands-on online coding
-      workshops, designed for busy women. Coding knowledge can improve your current
-      career or help you transition to a career in tech!
-    tag: app
+    subtitle: Browse front-end coding cheat sheets
+    tag: Reference
     url: https://cheatsheets.shecodes.io
     target: _blank
   - name: RealFaviconGenerator
     logo: assets/icons/favicons/realfavicongenerator.net.png
-    subtitle: The ultimate favicon generator. Design your icons platform per platform
-      and make them look great everywhere. Including in Google results pages.
-    tag: app
+    subtitle: Generate favicons for browsers and app platforms
+    tag: Tool
     url: https://realfavicongenerator.net
     target: _blank
   - name: Lorem ipsum
     logo: assets/icons/favicons/loremipsum.io.png
-    subtitle: Generate Lorem Ipsum placeholder text for use in your graphic, print
-      and web layouts, and discover plugins for your favorite writing, design and
-      blogging tools. Explore the origins, history and meaning of the famous passage,
-      and learn how Lorem Ipsum went from scrambled Latin passage to ubiqitous dummy
-      text.
-    tag: app
+    subtitle: Generate placeholder text for layouts and mockups
+    tag: Tool
     url: https://loremipsum.io
     target: _blank
 - name: Color & Design Tools
@@ -294,49 +266,42 @@ services:
     logo: assets/icons/favicons/pentest-tools.com.png
     subtitle: Discover common web application vulnerabilities and server configuration
       issues.
-    tag: Website
+    tag: Tool
     url: https://pentest-tools.com/website-vulnerability-scanning/website-scanner
     target: _blank
   - name: Microsoft Connectivity Tester
     logo: assets/icons/favicons/testconnectivity.microsoft.com.png
-    subtitle: Test connectivity with MS Products
-    tag: app
+    subtitle: Test Microsoft service connectivity
+    tag: Tool
     url: https://testconnectivity.microsoft.com/
     target: _blank
   - name: Mozilla Observatory
     logo: assets/icons/favicons/observatory.mozilla.org.png
-    subtitle: "Test your site\u2019s HTTP headers, including CSP and HSTS, to find\
-      \ security problems and get actionable recommendations to make your website\
-      \ more secure. Test other websites to see how you compare."
-    tag: Website
+    subtitle: Check security headers and site hardening
+    tag: Security
     url: https://observatory.mozilla.org
     target: _blank
   - name: Sucuri
     logo: assets/icons/favicons/sitecheck.sucuri.net.png
-    subtitle: SiteCheck is a website security scanner that checks any site, link,
-      or URL for malware, viruses, blacklist status, seo spam, or malicious code.
-      Check your website safety for free with Sucuri Security.
-    tag: Website
+    subtitle: Scan a site for malware and blocklist issues
+    tag: Security
     url: https://sitecheck.sucuri.net
     target: _blank
   - name: SSL Labs
     logo: assets/icons/favicons/www.ssllabs.com.png
     subtitle: A comprehensive free SSL test for your public web servers.
-    tag: Website
+    tag: Security
     url: https://www.ssllabs.com/ssltest/
     target: _blank
   - name: Gzip Compression Test
     logo: assets/icons/favicons/www.ipvoid.com.png
-    subtitle: 'This online Gzip test tool allows you to check if Gzip compression
-      is enabled on your website. Quickly test if your server is using Gzip compression
-      (i.e Content-Encoding: gzip) to improve page load speed.'
-    tag: Website
+    subtitle: Check whether a site serves compressed responses
+    tag: Performance
     url: https://www.ipvoid.com/gzip-test/
     target: _blank
   - name: Snyk
     logo: assets/icons/favicons/snyk.io.png
-    subtitle: Developer security platform for finding and fixing vulnerabilities in
-      open source dependencies and containers
+    subtitle: Find and fix dependency and container vulnerabilities
     tag: Security
     url: https://snyk.io
     target: _blank
@@ -381,25 +346,19 @@ services:
     target: _blank
   - name: DNS Stuff
     logo: assets/icons/favicons/www.dnsstuff.com.png
-    subtitle: Explore DNSstuff's suite of free tools. Get comprehensive information
-      and utilities to analyze, troubleshoot, and optimize your performance.
+    subtitle: Run DNS, domain, and network diagnostics
     tag: DNS
     url: https://www.dnsstuff.com/freetools
     target: _blank
   - name: IPlocation.io
     logo: assets/icons/favicons/iplocation.io.png
-    subtitle: IPLocation.io provides a free IP lookup tool to check the location of
-      your IP Address. Data is gathered through several GEO IP data providers. Just
-      enter an IP and check the location.
+    subtitle: Look up IP geolocation data
     tag: IP
     url: https://iplocation.io
     target: _blank
   - name: IPv6 Test
     logo: assets/icons/favicons/ipv6-test.com.png
-    subtitle: IPv6-test.com is a free service that checks your IPv6 and IPv4 connectivity
-      and speed. Diagnose connection problems, discover which address(es) you are
-      currently using to browse the Internet, and what is your browser's protocol
-      of choice when both v6 and v4 are available.
+    subtitle: Test IPv4 and IPv6 connectivity
     tag: IP
     url: https://ipv6-test.com
     target: _blank
@@ -417,16 +376,13 @@ services:
     target: _blank
   - name: SPFToolbox
     logo: assets/icons/favicons/spftoolbox.com.png
-    subtitle: SPF Toolbox was created to be an easy, free open source way for people
-      to get information about their domain. Please click the link in the top right
-      to let me know if you have any questions or suggestions for the app.
+    subtitle: Inspect SPF and domain email configuration
     tag: SMTP
     url: https://spftoolbox.com/
     target: _blank
   - name: Internet.nl
     logo: assets/icons/favicons/internet.nl.png
-    subtitle: Test your connection for modern Internet standards like IPv6, DNSSEC,
-      HTTPS, DMARC, and STARTTLS
+    subtitle: Test IPv6, DNSSEC, HTTPS, DMARC, and STARTTLS
     tag: Network
     url: https://internet.nl/
     target: _blank
@@ -462,16 +418,14 @@ services:
   items:
   - name: whatwebcando.today
     logo: assets/icons/favicons/whatwebcando.today.png
-    subtitle: Ready for what modern web apps can do? Analyze your browser's compatibility
-      with the latest HTML5 features and APIs.
-    tag: app
+    subtitle: Check which web APIs your browser supports
+    tag: Tool
     url: https://whatwebcando.today
     target: _blank
   - name: Baseline
     logo: assets/icons/favicons/web.dev.png
-    subtitle: Web Platform Baseline brings clarity to information about browser support
-      for web platform features.
-    tag: app
+    subtitle: Check browser support for modern web features
+    tag: Tool
     url: https://web.dev/baseline/
     target: _blank
   - name: PWA Builder
@@ -482,14 +436,13 @@ services:
     target: _blank
   - name: Information is beautiful
     logo: assets/icons/favicons/informationisbeautiful.net.png
-    tag: INFO
+    tag: Reference
     url: https://informationisbeautiful.net
     target: _blank
-    subtitle: Distilling the world's data, information & knowledge into beautiful
-      infographics & visualizations
+    subtitle: Browse data visualizations and infographics
   - name: MarkDown Cheatsheet
     logo: assets/icons/favicons/www.markdownguide.org.png
-    tag: MD
+    tag: Markdown
     url: https://www.markdownguide.org/cheat-sheet/
     target: _blank
     subtitle: A quick reference to the Markdown syntax.
@@ -507,9 +460,8 @@ services:
     target: _blank
   - name: cheat.sh
     logo: assets/icons/favicons/github.com.png
-    subtitle: the only cheat sheet you need. Contribute to chubin/cheat.sh development
-      by creating an account on GitHub.
-    tag: Manuals
+    subtitle: Search command-line cheat sheets
+    tag: Reference
     url: https://github.com/chubin/cheat.sh
     target: _blank
   - name: endoflife.date
@@ -550,37 +502,37 @@ services:
   - name: regex101
     logo: assets/icons/favicons/regex101.com.png
     subtitle: Online regex tester with syntax highlighting and debugger
-    tag: Tools
+    tag: Tool
     url: https://regex101.com
     target: _blank
   - name: explainshell.com
     logo: assets/icons/favicons/explainshell.com.png
     subtitle: Write down a command-line to see the help text for each argument
-    tag: Tools
+    tag: Tool
     url: https://explainshell.com
     target: _blank
   - name: devdocs.io
     logo: assets/icons/favicons/devdocs.io.png
     subtitle: Fast, offline-capable API documentation browser for developers
-    tag: Tools
+    tag: Tool
     url: https://devdocs.io
     target: _blank
   - name: roadmap.sh
     logo: assets/icons/favicons/roadmap.sh.png
     subtitle: Community-driven developer roadmaps and learning paths
-    tag: Tools
+    tag: Tool
     url: https://roadmap.sh
     target: _blank
   - name: httpbin.org
     logo: assets/icons/favicons/httpbin.org.png
     subtitle: HTTP request and response testing service for developers
-    tag: Tools
+    tag: Tool
     url: https://httpbin.org
     target: _blank
   - name: webhook.site
     logo: assets/icons/favicons/webhook.site.png
     subtitle: Webhook testing and inspection tool with instant feedback
-    tag: Tools
+    tag: Tool
     url: https://webhook.site
     target: _blank
 - name: Icons & SVGs
@@ -607,13 +559,13 @@ services:
   - name: Squoosh
     logo: assets/icons/favicons/squoosh.app.png
     subtitle: Online image compression and resizing tool
-    tag: Images
+    tag: Image
     url: https://squoosh.app
     target: _blank
   - name: SVGOMG
     logo: assets/icons/favicons/svgomg.net.png
     subtitle: SVGO optimization tool in the browser
-    tag: Images
+    tag: Image
     url: https://svgomg.net
     target: _blank
 - name: HTML and CSS
@@ -621,46 +573,39 @@ services:
   items:
   - name: W3C Validator
     logo: assets/icons/favicons/validator.w3.org.png
-    subtitle: "W3C's easy-to-use\n      markup validation service, based on SGML and\
-      \ XML parsers."
+    subtitle: Validate HTML markup
     tag: HTML
     url: https://validator.w3.org
     target: _blank
   - name: Webfont-Test
     logo: assets/icons/favicons/webfont-test.com.png
-    subtitle: 'Test and analyze fonts for the web: Google fonts, system fonts and
-      custom fonts.'
+    subtitle: Test and compare web fonts
     tag: Fonts
     url: http://webfont-test.com
     target: _blank
   - name: Can I use?
     logo: assets/icons/favicons/caniuse.com.png
-    subtitle: '"Can I use" provides up-to-date browser support tables for support
-      of front-end web technologies on desktop and mobile web browsers.'
-    tag: Web
+    subtitle: Check browser support for web platform features
+    tag: Reference
     url: https://caniuse.com
     target: _blank
   - name: Word to HTML
     logo: assets/icons/favicons/wordhtml.com.png
-    subtitle: Free online Word to HTML converter with code cleaning features and easy
-      switch between the visual and source editors. It works perfectly for any document
-      conversion, like Microsoft Word
-    tag: Web
+    subtitle: Convert Word content to clean HTML
+    tag: Reference
     url: https://wordhtml.com
     target: _blank
   - name: Strip HTML
     logo: assets/icons/favicons/www.striphtml.com.png
-    subtitle: Free online tool to strip HTML from any text. Remove all HTML and formatting
-      from your text. StripHTML.com gives quick and easy way to transform formatted
-      text
-    tag: Web
+    subtitle: Remove HTML and formatting from pasted text
+    tag: Reference
     url: https://www.striphtml.com/
     target: _blank
   - name: CyberChef
     logo: assets/icons/favicons/gchq.github.io.png
     subtitle: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression
       and data analysis
-    tag: Web
+    tag: Reference
     url: https://gchq.github.io/CyberChef/
     target: _blank
 
@@ -668,26 +613,25 @@ services:
     logo: assets/icons/favicons/www.joshwcomeau.com.png
     subtitle: Friendly tutorials for developers. Focus on React, CSS, Animation, and
       more!
-    tag: Web
+    tag: Reference
     url: https://www.joshwcomeau.com/gradient-generator/
     target: _blank
   - name: WAVE
     logo: assets/icons/favicons/wave.webaim.org.png
     subtitle: WAVE Web Accessibility Evaluation Tools
-    tag: Web
+    tag: Reference
     url: https://wave.webaim.org
     target: _blank
   - name: WebAIM Contrast Checker
     logo: assets/icons/favicons/webaim.org.png
     subtitle: Check color contrast for WCAG accessibility compliance
-    tag: Web
+    tag: Reference
     url: https://webaim.org/resources/contrastchecker/
     target: _blank
   - name: google-webfonts-helper
     logo: assets/icons/favicons/gwfh.mranftl.com.png
-    subtitle: A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff
-      and woff2 files + CSS snippets!
-    tag: Web
+    subtitle: Download self-hosted Google Font files and CSS
+    tag: Reference
     url: https://gwfh.mranftl.com/fonts
     target: _blank
 - name: JSON
@@ -707,33 +651,27 @@ services:
     target: _blank
   - name: JSON Test
     logo: assets/icons/json-icon-24.jpg.png
-    subtitle: JSONTest.com is a testing platform for services utilizing JavaScript
-      Object Notation (JSON).
+    subtitle: Test JSON service responses
     tag: JSON
     url: http://www.jsontest.com
     target: _blank
   - name: JSON Formatter
     logo: assets/icons/favicons/jsonformatter.org.png
-    subtitle: Online JSON Formatter / Beautifier and JSON Validator will format JSON
-      data, and helps to validate, convert JSON to XML, JSON to CSV. Save and Share
-      JSON
+    subtitle: Format, validate, and convert JSON
     tag: JSON
     url: https://jsonformatter.org
     target: _blank
   - name: Geekflare JSON online tools
     logo: assets/icons/favicons/geekflare.com.png
-    subtitle: JSON (JavaScript Object Notation) is a lightweight, text-based format
-      used for storing and exchanging data between clients and servers. It's known
-      for its
+    subtitle: Use online tools for JSON formatting and conversion
     tag: JSON
     url: https://geekflare.com/json-online-tools/
     target: _blank
   - name: JSON2Table
     logo: assets/icons/favicons/json2table.com.png
-    subtitle: Temukan pengalaman bermain terbaik di Online138, platform game daring
-      premium yang menghadirkan koleksi lengkap dari provider ternama dunia!.
+    subtitle: Generate mock JSON data from templates
     tag: JSON
-    url: http://json2table.com/#
+    url: https://json2table.com/#
     target: _blank
   - name: JSON Generator
     logo: assets/icons/favicons/www.jsongenerator.io.png
@@ -744,9 +682,7 @@ services:
     target: _blank
   - name: Dummy JSON
     logo: assets/icons/favicons/dummyjson.com.png
-    subtitle: DummyJSON provides a free fake REST API with placeholder JSON data for
-      development, testing, and prototyping. Access realistic data quickly for your
-      projects.
+    subtitle: Use fake REST API data for tests and prototypes
     tag: JSON
     url: https://dummyjson.com
     target: _blank
@@ -790,20 +726,19 @@ services:
     tag: Playground
     url: https://codesandbox.io
     target: _blank
-- name: Apache / NGinx
+- name: Apache / Nginx
   icon: fab fa-cloudflare
   items:
   - name: The Ultimate Htaccess
     logo: assets/icons/favicons/www.askapache.com.png
-    subtitle: htaccess is a powerful Apache configuration file for URL Redirects,
-      SEO, Security, SSL/HTTPS Redirection, etc. HUGE .htaccess file resource!
+    subtitle: Reference for Apache htaccess rules and redirects
     tag: Apache
     url: https://www.askapache.com/htaccess/
     target: _blank
   - name: PWA tester online
     logo: assets/icons/favicons/www.seochecker.it.png
     subtitle: Online PWA tester by SeoChecker
-    tag: app
+    tag: Tool
     url: https://www.seochecker.it/pwa-tester-online
     target: _blank
   - name: VERIFY HTTP/2 SUPPORT
@@ -817,141 +752,123 @@ services:
   items:
   - name: draw.io
     logo: assets/icons/favicons/app.diagrams.net.png
-    subtitle: draw.io is free online diagram software for making flowcharts, process
-      diagrams, org charts, UML, ER and network diagrams
-    tag: App
+    subtitle: Create diagrams, flowcharts, and network maps
+    tag: Tool
     url: https://app.diagrams.net
     target: _blank
   - name: TinyPNG
     logo: assets/icons/favicons/tinypng.com.png
-    subtitle: Free online image optimizer for faster websites! Reduce the file size
-      of your AVIF, WEBP, JPEG and PNG images while preserving the image quality.
-    tag: app
+    subtitle: Compress images for faster websites
+    tag: Tool
     url: https://tinypng.com
     target: _blank
   - name: TinEye Reverse Image Search
     logo: assets/icons/favicons/tineye.com.png
     subtitle: Find better version of image
-    tag: app
+    tag: Tool
     url: https://tineye.com/
     target: _blank
   - name: Eredivisie iCal
     logo: assets/icons/favicons/maak-agenda.nl.png
-    subtitle: "Importeer het speelschema van je favoriete team uit de Eredivisie in\
-      \ je digitale agenda. De kalender blijft up to date bij wijzigingen in het speelschema\
-      \ en houdt de scores bij.\n\n            Inclusief Europees voetbal, bekerwedstrijden\
-      \ en play offs."
-    tag: app
+    subtitle: Importeer Eredivisie-wedstrijden in je agenda
+    tag: Tool
     url: https://maak-agenda.nl
     target: _blank
   - name: Radio Garden
     logo: assets/icons/favicons/radio.garden.png
     subtitle: "Listen to live Bayamo radio on Radio Garden \u2013 Radio Garden"
-    tag: app
+    tag: Tool
     url: http://radio.garden/visit/bayamo/9x_j3ZkV
     target: _blank
   - name: PhotoFunia
     logo: assets/icons/favicons/photofunia.com.png
-    subtitle: PhotoFunia is a leading free photo editing site packed with a huge library
-      of picture editor effects & photo filters. Edit pictures with online pic editor.
-    tag: app
+    subtitle: Apply quick photo effects and filters
+    tag: Tool
     url: https://photofunia.com/
     target: _blank
   - name: Cleanup.pictures
     logo: assets/icons/favicons/cleanup.pictures.png
-    subtitle: Remove unwanted objects from photos, people, text, and defects from
-      any picture for free. It's extremely easy in just a few clicks with our creative
-      editing tool.
-    tag: app
+    subtitle: Remove unwanted objects from images
+    tag: Tool
     url: https://cleanup.pictures/
     target: _blank
   - name: SaveFrom.net - Instagram
     logo: assets/icons/favicons/en.savefrom.net.png
-    subtitle: Download Instagram videos and photos for free with SaveFrom.net. Enjoy
-      fast, easy downloads in high quality. Download directly from your browser or
-      our Android app. Start saving your favorite Instagram content today!
-    tag: app
+    subtitle: Download Instagram photos and videos
+    tag: Tool
     url: https://en.savefrom.net/274/download-from-instagram
     target: _blank
 
   - name: GlooMaps
     logo: assets/icons/favicons/www.gloomaps.com.png
-    subtitle: GlooMaps, simple and fast online sitemapping tool. Create and build
-      a visual sitemap, add content and share with others. Website planning made easy!
-    tag: app
+    subtitle: Create and share visual sitemaps
+    tag: Tool
     url: https://www.gloomaps.com/
     target: _blank
   - name: Free Online Database Diagram Tool
     logo: assets/icons/favicons/databasediagram.com.png
-    subtitle: FREE Relational diagram tool. ER Models. No Signup required, Nothing
-      to install. All diagrams are 100% private, secure and processed locally right
-      in your web browser
-    tag: app
+    subtitle: Draw ER diagrams in the browser
+    tag: Tool
     url: https://databasediagram.com/
     target: _blank
   - name: Visual Studio Code
     logo: assets/icons/favicons/vscode.dev.png
     subtitle: Build with Visual Studio Code, anywhere, anytime, entirely in your browser.
-    tag: app
+    tag: Tool
     url: https://vscode.dev
     target: _blank
   - name: ShareCAD
     logo: assets/icons/box.png
     subtitle: Free online service to view CAD and 3D
-    tag: app
+    tag: Tool
     url: https://www.sharecad.org
     target: _blank
   - name: Typograms
     logo: assets/icons/favicons/google.github.io.png
     subtitle: like markdown for diagrams
-    tag: app
+    tag: Tool
     url: https://google.github.io/typograms/
     target: _blank
   - name: Autotracer.org
     logo: assets/icons/favicons/autotracer.org.png
-    subtitle: Autotracer is a free online image vectorizer. It can convert raster
-      images like JPEGs, GIFs and PNGs to scalable vector graphics (EPS, SVG, AI and
-      PDF). No registration or email required.
-    tag: app
+    subtitle: Convert raster images to vector graphics
+    tag: Tool
     url: https://autotracer.org/
     target: _blank
   - name: Threads Video Downloader
     logo: assets/icons/favicons/threadsdownloader.com.png
-    subtitle: Download any Threads video with just one click using our free Threads
-      video downloader tool. Save it to any device or platform as an MP4 in HD.
-    tag: app
+    subtitle: Download Threads videos as MP4 files
+    tag: Tool
     url: https://threadsdownloader.com
     target: _blank
   - name: Reddit Video Downloader - RapidSave
     logo: assets/icons/favicons/rapidsave.com.png
-    subtitle: RapidSave (formerly RedditSave) helps you download reddit videos with
-      sound audio and HD quality. A free reddit video downloader to download reddit
-      videos & save videos from reddit.
-    tag: app
+    subtitle: Download Reddit videos with audio
+    tag: Tool
     url: https://rapidsave.com/
     target: _blank
   - name: Excalidraw
     logo: assets/icons/favicons/excalidraw.com.png
     subtitle: Virtual collaborative whiteboard for sketching diagrams and wireframes
-    tag: app
+    tag: Tool
     url: https://excalidraw.com
     target: _blank
   - name: Notion
     logo: assets/icons/favicons/notion.so.png
     subtitle: All-in-one workspace for notes, docs, and project management
-    tag: app
+    tag: Tool
     url: https://notion.so
     target: _blank
   - name: Photopea
     logo: assets/icons/favicons/photopea.com.png
     subtitle: Advanced online image editor resembling Photoshop
-    tag: app
+    tag: Tool
     url: https://photopea.com
     target: _blank
   - name: CloudConvert
     logo: assets/icons/favicons/cloudconvert.com.png
     subtitle: Convert files between 200+ formats online
-    tag: app
+    tag: Tool
     url: https://cloudconvert.com
     target: _blank
 - name: Selfhosted / OSS
@@ -959,17 +876,13 @@ services:
   items:
   - name: Docker HUB
     logo: assets/icons/favicons/hub.docker.com.png
-    subtitle: Welcome to the world's largest container registry built for developers
-      and open source contributors to find, use, and share their container images.
-      Build, push and pull.
+    subtitle: Search, pull, and publish container images
     tag: Docker
     url: https://hub.docker.com
     target: _blank
   - name: Selfhosted Libhunt
     logo: assets/icons/favicons/selfhosted.libhunt.com.png
-    subtitle: Your go-to Self Hosted Toolbox. A directory of free software solutions
-      and web applications which can be hosted locally. 1501 projects organized into
-      143 categories.
+    subtitle: Browse self-hosted software alternatives
     tag: Selfhosted
     url: https://selfhosted.libhunt.com
     target: _blank
@@ -988,10 +901,7 @@ services:
     target: _blank
   - name: Self-Hosting-Guide
     logo: assets/icons/favicons/github.com.png
-    subtitle: Self-Hosting Guide. Learn all about  locally hosting (on premises &
-      private web servers) and managing software applications by yourself or your
-      organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant,
-      and Networking. - mikeroyal/Self-Hosting-Guide
+    subtitle: Guide to hosting services on private servers
     tag: Docker
     url: https://github.com/mikeroyal/Self-Hosting-Guide?utm_source=tldrnewsletter
     target: _blank
@@ -1018,8 +928,7 @@ services:
   items:
   - name: Tailwind CSS Play
     logo: assets/icons/favicons/play.tailwindcss.com.png
-    subtitle: An advanced online playground for Tailwind CSS that lets you use all
-      of Tailwind's build-time features directly in the browser.
+    subtitle: Test Tailwind CSS directly in the browser
     tag: Tailwind CSS
     url: https://play.tailwindcss.com
     target: _blank
@@ -1081,14 +990,13 @@ services:
   - name: Vsync Tester
     logo: assets/icons/favicons/www.vsynctester.com.png
     subtitle: Web browser "VSYNC synchronization", display Hz, and input lag tester
-    tag: app
+    tag: Tool
     url: https://www.vsynctester.com
     target: _blank
   - name: Yet-Another-Bench-Script
     logo: assets/icons/favicons/github.com.png
-    subtitle: 'GitHub - masonr/yet-another-bench-script: YABS - a simple bash script
-      to estimate Linux server performance using fio, iperf3, & Geekbench'
-    tag: app
+    subtitle: Benchmark Linux server performance
+    tag: Tool
     url: https://github.com/masonr/yet-another-bench-script
     target: _blank
   - name: Speedometer
@@ -1114,9 +1022,7 @@ services:
     target: _blank
   - name: IPSW Downloads
     logo: assets/icons/favicons/ipsw.me.png
-    subtitle: Download current and previous versions of Apple's iOS, iPadOS, watchOS,
-      tvOS, audioOS and macOS firmware and receive notifications when new firmwares
-      are released.
+    subtitle: Download Apple firmware versions
     tag: Apple
     url: https://ipsw.me
     target: _blank
@@ -1143,9 +1049,9 @@ services:
     target: _blank
   - name: Microsoft Portals
     logo: assets/icons/favicons/msportals.io.png
-    subtitle: An aggregation of all of the Microsoft Portals we could find.
+    subtitle: Directory of Microsoft admin and product portals
     tag: Microsoft
-    url: http://msportals.io
+    url: https://msportals.io
     target: _blank
   - name: Microsoft Office 365 Info
     logo: assets/icons/favicons/o365info.com.png
@@ -1155,31 +1061,25 @@ services:
     target: _blank
   - name: Chocolatey.org
     logo: assets/icons/favicons/chocolatey.org.png
-    subtitle: Chocolatey is software management automation for Windows that wraps
-      installers, executables, zips, and scripts into compiled packages. Chocolatey
-      integrates w/SCCM, Puppet, Chef, etc. Chocolatey is trusted by businesses to
-      manage software deployments.
+    subtitle: Install and manage Windows packages
     tag: Microsoft
     url: https://chocolatey.org/
     target: _blank
   - name: Ninite
     logo: assets/icons/ninite.png
-    subtitle: The easiest, fastest way to update or install software. Ninite downloads
-      and installs programs automatically in the background.
+    subtitle: Install and update common Windows apps
     tag: Windows
     url: https://ninite.com
     target: _blank
   - name: SS64
     logo: assets/icons/favicons/ss64.com.png
-    subtitle: Command line reference for Windows CMD, PowerShell, MacOS and Linux
-      bash. Also includes SQL Server database commands.
+    subtitle: Command-line reference for Windows, macOS, and Linux
     tag: Microsoft
     url: https://ss64.com
     target: _blank
   - name: SharePointMaven
     logo: assets/icons/favicons/sharepointmaven.com.png
-    subtitle: Greg Zelfond, SharePoint Consultant specializing in Consulting, Training,
-      and an out-of-the-box configuration for SharePoint & Microsoft 365.
+    subtitle: SharePoint and Microsoft 365 guidance
     tag: SharePoint
     url: https://sharepointmaven.com
     target: _blank
@@ -1191,25 +1091,19 @@ services:
     target: _blank
   - name: Microsoft 365 Community
     logo: assets/tools/31443929.png
-    subtitle: Microsoft 365 & Power Platform Community open-source projects and samples
-      - Microsoft 365 & Power Platform Community
+    subtitle: Microsoft 365 and Power Platform community samples
     tag: SharePoint
     url: https://github.com/pnp
     target: _blank
   - name: Technet Gallery
     logo: assets/icons/favicons/learn.microsoft.com.png
-    subtitle: "Bekijk codevoorbeelden voor Microsoft-ontwikkelhulpprogramma's en -technologie\xEB\
-      n. Verken en ontdek de dingen die je kunt bouwen met producten zoals .NET, Azure\
-      \ of C++."
+    subtitle: Bekijk Microsoft codevoorbeelden en samples
     tag: Microsoft
     url: https://learn.microsoft.com/nl-nl/samples/browse/?redirectedfrom=TechNet-Gallery
     target: _blank
   - name: No More Ransomware
     logo: assets/icons/favicons/www.nomoreransom.org.png
-    subtitle: Ransomware is malware die uw computer en mobiele apparaten vergrendelt
-      of uw digitale bestanden versleutelt. Als dit gebeurt, zijn uw gegevens ontoegankelijk
-      tenzij u losgeld betaalt. Losgeld betalen biedt echter geen garanties, dus betaal
-      nooit!
+    subtitle: Hulp en decryptietools bij ransomware
     tag: Security
     url: https://www.nomoreransom.org/nl/index.html
     target: _blank
@@ -1221,35 +1115,28 @@ services:
     target: _blank
   - name: Microsoft DEV Home
     logo: assets/icons/favicons/learn.microsoft.com.png
-    subtitle: Dev Home is a new control center for Windows providing the ability to
-      track your workflows and coding tasks using customizable widgets, set up your
-      dev environment, connect to your developer accounts and tools (such as GitHub),
-      and install apps and packages all in one place.
-    tag: DEV
+    subtitle: Set up and manage a Windows developer environment
+    tag: Developer
     url: https://learn.microsoft.com/en-us/windows/dev-home/
     target: _blank
   - name: 'WinWorld: Library'
     logo: assets/icons/favicons/winworldpc.com.png
-    subtitle: WinWorld is an online museum dedicated to providing free and open access
-      to one of the largest archives of abandonware software and information on the
-      web.
-    tag: OS
+    subtitle: Browse archived operating systems and software
+    tag: Reference
     url: https://winworldpc.com/library/operating-systems
     target: _blank
 - name: Privacy
   icon: fa fa-address-book
   items:
-  - name: Have I been powned?
+  - name: Have I Been Pwned
     logo: assets/icons/favicons/haveibeenpwned.com.png
-    subtitle: Have I Been Pwned allows you to check whether your email address has
-      been exposed in a data breach.
+    subtitle: Check whether an email appears in a breach
     tag: Security
     url: https://haveibeenpwned.com
     target: _blank
   - name: Ligalio
     logo: assets/icons/favicons/ligalio.com.png
-    subtitle: GDPR compliant privacy policy generator. Made by EU lawyers. Easy to
-      use and quick solution! Best for websites, apps, SMEs, blogs, ecommerce!
+    subtitle: Generate GDPR privacy policies for websites and apps
     tag: Privacy
     url: https://ligalio.com
     target: _blank
@@ -1264,8 +1151,7 @@ services:
     target: _blank
   - name: Bing Search
     logo: assets/icons/favicons/www.bing.com.png
-    subtitle: Meld u aan of registreer u voor Bing Webmaster Tool en verbeter de prestaties
-      van uw site op zoekgebied. Krijg toegang tot gratis rapporten, tools en hulpmiddelen.
+    subtitle: Beheer Bing Webmaster Tools
     tag: Search
     url: https://www.bing.com/webmasters
     target: _blank
@@ -1292,20 +1178,14 @@ services:
   items:
   - name: Smashing Magazine
     logo: assets/icons/favicons/www.smashingmagazine.com.png
-    subtitle: Magazine on CSS, JavaScript, front-end, accessibility, UX and design.
-      For developers, designers and front-end engineers.
-    tag: Web
+    subtitle: Front-end, accessibility, UX, and design articles
+    tag: Reference
     url: https://www.smashingmagazine.com/
     target: _blank
-  - name: Webwash BLog
+  - name: Webwash Blog
     logo: assets/icons/favicons/www.webwash.net.png
-    subtitle: <p>Managing content workflows in Drupal requires tools that track content
-      from draft to publication. Drupal provides options for implementing workflows
-      at different levels, from basic content moderation to field-level state management
-      and webform submission tracking.</p> <p>In the video above, you'll learn how
-      to set up and configure Content Moderation, use field-level state management
-      with the Field States Transitions module, and
-    tag: Web
+    subtitle: Drupal tutorials and site-building articles
+    tag: Reference
     url: https://www.webwash.net/blog/
     target: _blank
   - name: Dennis Notes
@@ -1323,9 +1203,7 @@ services:
     target: _blank
   - name: How to Write a Great README
     logo: assets/icons/favicons/www.appsmith.com.png
-    subtitle: This article explores what makes a great project README, how Appsmith
-      made ours as accessible as possible and provides examples of other effective
-      READMEs.
+    subtitle: Learn what makes a README clear and useful
     tag: Markdown
     url: https://www.appsmith.com/blog/write-a-great-readme
     target: _blank
@@ -1346,31 +1224,25 @@ services:
   items:
   - name: Stable Diffusion Playground
     logo: assets/icons/favicons/stablediffusionweb.com.png
-    subtitle: Stable Diffusion is a deep learning model that generates images from
-      text descriptions. Use Stable Diffusion online for free.
+    subtitle: Generate images with Stable Diffusion
     tag: AI
     url: https://stablediffusionweb.com/#demo
     target: _blank
   - name: Perplexity AI
     logo: assets/icons/favicons/www.perplexity.ai.png
-    subtitle: Be smarter with your personal data online
+    subtitle: AI-powered web search and research
     tag: AI
     url: https://www.perplexity.ai/
     target: _blank
   - name: Microsoft Designer
     logo: assets/icons/favicons/designer.microsoft.com.png
-    subtitle: A graphic design app that helps you create professional quality social
-      media posts, invitations, digital postcards, graphics, and more. Start with
-      your idea and create something unique for you.
+    subtitle: Create social and marketing graphics with AI
     tag: AI
     url: https://designer.microsoft.com/
     target: _blank
   - name: cutout.pro
     logo: assets/icons/favicons/www.cutout.pro.png
-    subtitle: All-in-one visual design platform containing AI photo and video editing
-      tools. Automatic process for background remove, image restoration, graphic design,
-      and content generation. With Cutout.Pro, it is one click away to optimize your
-      content and transform your design ideas into special asset effectively.
+    subtitle: Edit images and remove backgrounds with AI
     tag: AI
     url: https://www.cutout.pro
     target: _blank

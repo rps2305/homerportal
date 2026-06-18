@@ -4,17 +4,17 @@
 #main-section .card-header {
   box-shadow: none;
   border-bottom: none;
-  margin-bottom: 0.5rem;
+  margin: 0.35rem 0 0.65rem;
   padding-left: 0.75rem;
   border-left: 4px solid var(--highlight-primary);
 }
 
 #main-section .card-header-title {
   font-family: Raleway, sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  padding: 0.6rem 0.75rem;
+  letter-spacing: 0;
+  padding: 0.45rem 0.75rem;
   text-transform: uppercase;
   color: var(--text-title);
 }
@@ -25,6 +25,7 @@ body #main-section .card {
   border: 1px solid transparent;
   border-radius: 6px;
   box-shadow: none;
+  contain: layout paint;
   transition: border-color 0.2s ease, background 0.2s ease;
 }
 
@@ -32,6 +33,15 @@ body #main-section .card:hover {
   border-color: var(--highlight-primary);
   background: var(--card-background);
   transform: none;
+}
+
+body #main-section .card:focus-within {
+  border-color: var(--highlight-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--highlight-primary) 18%, transparent);
+}
+
+body #main-section .card a:focus-visible {
+  outline: none;
 }
 
 /* Card content: relaxed height, less padding */
@@ -84,8 +94,12 @@ body #app .tag {
   background: color-mix(in srgb, var(--highlight-primary) 12%, var(--card-background));
   color: var(--highlight-primary);
   border: none;
-  transition: background 0.2s ease, color 0.2s ease, width 0.2s ease, padding 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
   width: auto;
+}
+
+body #main-section .tag .tag-text {
+  display: inline;
 }
 
 body #app .card:hover .tag {
@@ -123,25 +137,40 @@ body #app .card:hover .tag .tag-text {
 }
 
 /* Search input: ensure text contrast */
-.search-bar input {
+body .search-bar input {
   border-radius: 8px;
   border: 2px solid transparent;
   background: var(--card-background);
-  padding: 0.75rem 1.25rem;
+  width: auto;
+  min-width: clamp(14rem, 22vw, 22rem);
+  height: auto;
+  padding: 0.7rem 1.1rem 0.7rem 2.4rem;
   font-size: 1rem;
   color: var(--text) !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.search-bar input::placeholder {
+body .search-bar input::placeholder {
   color: var(--text-subtitle) !important;
   opacity: 0.8;
 }
 
-.search-bar input:focus {
+body .search-bar input:focus {
   border-color: var(--highlight-primary);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--highlight-primary) 20%, transparent);
   outline: none;
+  width: auto;
+}
+
+body .search-bar .search-label:before {
+  top: 50%;
+  left: 0.95rem;
+  color: var(--text-subtitle);
+  transform: translateY(-50%);
+}
+
+body .search-bar:focus-within .search-label:before {
+  color: var(--highlight-primary);
 }
 
 /* Card subtitles: ensure readability */
@@ -198,6 +227,16 @@ body #main-section {
     font-size: 1.1rem;
   }
 
+  body .search-bar {
+    width: 100%;
+  }
+
+  body .search-bar input,
+  body .search-bar input:focus {
+    width: 100%;
+    min-width: 0;
+  }
+
   body .card-content {
     padding: 0.75rem;
     min-height: 68px;
@@ -223,7 +262,7 @@ body #app.theme-dark .card:hover {
 
 body #app.theme-dark .search-bar input {
   background: var(--card-background);
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: color-mix(in srgb, var(--text-header) 8%, transparent);
 }
 
 body #app.theme-dark .search-bar input:focus {
