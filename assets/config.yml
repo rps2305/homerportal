@@ -1,6 +1,6 @@
 title: Ronald Punt
 subtitle: Dashboard
-logo: logo.png
+logo: logo.webp
 header: true
 footer: false
 theme: default
@@ -47,7 +47,7 @@ services:
   icon: fa fa-search-minus
   items:
   - name: gtmetrix.com
-    logo: assets/icons/favicons/gtmetrix.com.png
+    logo: assets/icons/favicons/gtmetrix.com.webp
     subtitle: How fast does your website load?
     tag: Tool
     url: https://gtmetrix.com
@@ -84,7 +84,7 @@ services:
     url: https://seositecheckup.com
     target: _blank
   - name: SEOptimer
-    logo: assets/icons/favicons/www.seoptimer.com.png
+    logo: assets/icons/favicons/www.seoptimer.com.webp
     subtitle: Analyze and grade website SEO performance
     tag: SEO
     url: https://www.seoptimer.com
@@ -149,7 +149,7 @@ services:
     url: https://www.whocanuse.com
     target: _blank
   - name: CSP Evaluator
-    logo: assets/icons/favicons/csp-evaluator.withgoogle.com.png
+    logo: assets/icons/favicons/csp-evaluator.withgoogle.com.webp
     subtitle: Google tool to evaluate Content Security Policy configurations
     tag: Security
     url: https://csp-evaluator.withgoogle.com
@@ -254,7 +254,7 @@ services:
     url: https://coolors.co
     target: _blank
   - name: ColorHexa
-    logo: assets/icons/favicons/colorhexa.com.png
+    logo: assets/icons/favicons/colorhexa.com.webp
     subtitle: Color encyclopedia with conversion, palettes, and gradient generator
     tag: Color
     url: https://www.colorhexa.com
@@ -263,7 +263,7 @@ services:
   icon: fa fa-shield
   items:
   - name: Website Scanner
-    logo: assets/icons/favicons/pentest-tools.com.png
+    logo: assets/icons/favicons/pentest-tools.com.webp
     subtitle: Discover common web application vulnerabilities and server configuration
       issues.
     tag: Tool
@@ -294,7 +294,7 @@ services:
     url: https://www.ssllabs.com/ssltest/
     target: _blank
   - name: Gzip Compression Test
-    logo: assets/icons/favicons/www.ipvoid.com.png
+    logo: assets/icons/favicons/www.ipvoid.com.webp
     subtitle: Check whether a site serves compressed responses
     tag: Performance
     url: https://www.ipvoid.com/gzip-test/
@@ -318,7 +318,7 @@ services:
     url: https://portchecker.io/
     target: _blank
   - name: Shodan
-    logo: assets/icons/favicons/shodan.io.png
+    logo: assets/icons/favicons/shodan.io.webp
     subtitle: Search engine for Internet-connected devices and systems
     tag: Security
     url: https://shodan.io
@@ -357,7 +357,7 @@ services:
     url: https://iplocation.io
     target: _blank
   - name: IPv6 Test
-    logo: assets/icons/favicons/ipv6-test.com.png
+    logo: assets/icons/favicons/ipv6-test.com.webp
     subtitle: Test IPv4 and IPv6 connectivity
     tag: IP
     url: https://ipv6-test.com
@@ -375,7 +375,7 @@ services:
     url: https://dnslytics.com/email-test
     target: _blank
   - name: SPFToolbox
-    logo: assets/icons/favicons/spftoolbox.com.png
+    logo: assets/icons/favicons/spftoolbox.com.webp
     subtitle: Inspect SPF and domain email configuration
     tag: SMTP
     url: https://spftoolbox.com/
@@ -396,7 +396,7 @@ services:
     url: https://mxtoolbox.com
     target: _blank
   - name: What's My DNS
-    logo: assets/icons/favicons/whatsmydns.net.png
+    logo: assets/icons/favicons/whatsmydns.net.webp
     subtitle: DNS propagation checker across global servers
     tag: Network
     url: https://whatsmydns.net
@@ -408,7 +408,7 @@ services:
     url: https://whois.com
     target: _blank
   - name: Ping.eu
-    logo: assets/icons/favicons/ping.eu.png
+    logo: assets/icons/favicons/ping.eu.webp
     subtitle: Online network tools including ping, traceroute, port check
     tag: Network
     url: https://ping.eu
@@ -500,13 +500,13 @@ services:
   icon: fas fa-laptop-code
   items:
   - name: regex101
-    logo: assets/icons/favicons/regex101.com.png
+    logo: assets/icons/favicons/regex101.com.webp
     subtitle: Online regex tester with syntax highlighting and debugger
     tag: Tool
     url: https://regex101.com
     target: _blank
   - name: explainshell.com
-    logo: assets/icons/favicons/explainshell.com.png
+    logo: assets/icons/favicons/explainshell.com.webp
     subtitle: Write down a command-line to see the help text for each argument
     tag: Tool
     url: https://explainshell.com
@@ -602,7 +602,7 @@ services:
     url: https://www.striphtml.com/
     target: _blank
   - name: CyberChef
-    logo: assets/icons/favicons/gchq.github.io.png
+    logo: assets/icons/favicons/gchq.github.io.webp
     subtitle: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression
       and data analysis
     tag: Reference
@@ -629,7 +629,7 @@ services:
     url: https://webaim.org/resources/contrastchecker/
     target: _blank
   - name: google-webfonts-helper
-    logo: assets/icons/favicons/gwfh.mranftl.com.png
+    logo: assets/icons/favicons/gwfh.mranftl.com.webp
     subtitle: Download self-hosted Google Font files and CSS
     tag: Reference
     url: https://gwfh.mranftl.com/fonts
@@ -668,7 +668,7 @@ services:
     url: https://geekflare.com/json-online-tools/
     target: _blank
   - name: JSON2Table
-    logo: assets/icons/favicons/json2table.com.png
+    logo: assets/icons/favicons/json2table.com.webp
     subtitle: Generate mock JSON data from templates
     tag: JSON
     url: https://json2table.com/#
@@ -681,7 +681,7 @@ services:
     url: https://www.jsongenerator.io
     target: _blank
   - name: Dummy JSON
-    logo: assets/icons/favicons/dummyjson.com.png
+    logo: assets/icons/favicons/dummyjson.com.webp
     subtitle: Use fake REST API data for tests and prototypes
     tag: JSON
     url: https://dummyjson.com
@@ -709,7 +709,7 @@ services:
     url: https://graphql.org/swapi-graphql
     target: _blank
   - name: Bruno
-    logo: assets/icons/favicons/usebruno.com.png
+    logo: assets/icons/favicons/usebruno.com.webp
     subtitle: Fast and offline-first API client for developers
     tag: API
     url: https://usebruno.com
@@ -781,7 +781,7 @@ services:
     url: http://radio.garden/visit/bayamo/9x_j3ZkV
     target: _blank
   - name: PhotoFunia
-    logo: assets/icons/favicons/photofunia.com.png
+    logo: assets/icons/favicons/photofunia.com.webp
     subtitle: Apply quick photo effects and filters
     tag: Tool
     url: https://photofunia.com/
@@ -793,7 +793,7 @@ services:
     url: https://cleanup.pictures/
     target: _blank
   - name: SaveFrom.net - Instagram
-    logo: assets/icons/favicons/en.savefrom.net.png
+    logo: assets/icons/favicons/en.savefrom.net.webp
     subtitle: Download Instagram photos and videos
     tag: Tool
     url: https://en.savefrom.net/274/download-from-instagram
@@ -812,13 +812,13 @@ services:
     url: https://databasediagram.com/
     target: _blank
   - name: Visual Studio Code
-    logo: assets/icons/favicons/vscode.dev.png
+    logo: assets/icons/favicons/vscode.dev.webp
     subtitle: Build with Visual Studio Code, anywhere, anytime, entirely in your browser.
     tag: Tool
     url: https://vscode.dev
     target: _blank
   - name: ShareCAD
-    logo: assets/icons/box.png
+    logo: assets/icons/box.webp
     subtitle: Free online service to view CAD and 3D
     tag: Tool
     url: https://www.sharecad.org
@@ -866,7 +866,7 @@ services:
     url: https://photopea.com
     target: _blank
   - name: CloudConvert
-    logo: assets/icons/favicons/cloudconvert.com.png
+    logo: assets/icons/favicons/cloudconvert.com.webp
     subtitle: Convert files between 200+ formats online
     tag: Tool
     url: https://cloudconvert.com
@@ -887,14 +887,14 @@ services:
     url: https://selfhosted.libhunt.com
     target: _blank
   - name: Docker Course for starters
-    logo: assets/icons/favicons/docker-curriculum.com.png
+    logo: assets/icons/favicons/docker-curriculum.com.webp
     subtitle: Learn to build and deploy your distributed applications easily to the
       cloud with Docker
     tag: Docker
     url: https://docker-curriculum.com/#introduction
     target: _blank
   - name: LinuxServer.io
-    logo: assets/icons/box.png
+    logo: assets/icons/box.webp
     subtitle: Home | LinuxServer.ioMastodon
     tag: Docker
     url: https://www.linuxserver.io
@@ -906,7 +906,7 @@ services:
     url: https://github.com/mikeroyal/Self-Hosting-Guide?utm_source=tldrnewsletter
     target: _blank
   - name: Proxmox Helper Scripts
-    logo: assets/icons/favicons/tteck.github.io.png
+    logo: assets/icons/favicons/tteck.github.io.webp
     subtitle: Scripts for Streamlining Your Homelab with Proxmox VE
     tag: Proxmox
     url: https://tteck.github.io/Proxmox/
@@ -933,14 +933,14 @@ services:
     url: https://play.tailwindcss.com
     target: _blank
   - name: 'Tailwind CSS Palette Generator '
-    logo: assets/icons/favicons/www.tints.dev.png
+    logo: assets/icons/favicons/www.tints.dev.webp
     subtitle: A fast and flexible, HSL-tweakable palette generator and API for Tailwind
       CSS
     tag: Tailwind CSS
     url: https://www.tints.dev/brand/2522FC
     target: _blank
   - name: Tailwind CSS Responsive Cards
-    logo: assets/icons/favicons/tailwind-cards.netlify.app.png
+    logo: assets/icons/favicons/tailwind-cards.netlify.app.webp
     subtitle: Tailwind Components - Responsive Cards
     tag: Tailwind CSS
     url: https://tailwind-cards.netlify.app
@@ -952,7 +952,7 @@ services:
     url: https://tailblocks.cc
     target: _blank
   - name: Tailwind CSS Snippets vscode extension!)
-    logo: assets/icons/favicons/tws.zarifprogrammer.com.png
+    logo: assets/icons/favicons/tws.zarifprogrammer.com.webp
     subtitle: All Snippets Shortcuts
     tag: Tailwind CSS
     url: https://tws.zarifprogrammer.com/snippets
@@ -982,7 +982,7 @@ services:
   icon: fas fa-chart-bar
   items:
   - name: Browserbench.org
-    logo: assets/icons/box.png
+    logo: assets/icons/box.webp
     subtitle: Benchmark test your system in the browser
     tag: Benchmark
     url: https://browserbench.org
@@ -1000,7 +1000,7 @@ services:
     url: https://github.com/masonr/yet-another-bench-script
     target: _blank
   - name: Speedometer
-    logo: assets/icons/box.png
+    logo: assets/icons/box.webp
     subtitle: Browser responsiveness benchmark measuring web application performance
     tag: Benchmark
     url: https://browserbench.org/Speedometer3.0
@@ -1066,7 +1066,7 @@ services:
     url: https://chocolatey.org/
     target: _blank
   - name: Ninite
-    logo: assets/icons/ninite.png
+    logo: assets/icons/ninite.webp
     subtitle: Install and update common Windows apps
     tag: Windows
     url: https://ninite.com
@@ -1084,13 +1084,13 @@ services:
     url: https://sharepointmaven.com
     target: _blank
   - name: SharePoint Diary
-    logo: assets/tools/Sharepoint-diary-logo.png
+    logo: assets/tools/Sharepoint-diary-logo.webp
     subtitle: Salaudeen Rajack's SharePoint Experiences!
     tag: SharePoint
     url: https://www.sharepointdiary.com/
     target: _blank
   - name: Microsoft 365 Community
-    logo: assets/tools/31443929.png
+    logo: assets/tools/31443929.webp
     subtitle: Microsoft 365 and Power Platform community samples
     tag: SharePoint
     url: https://github.com/pnp
@@ -1108,7 +1108,7 @@ services:
     url: https://www.nomoreransom.org/nl/index.html
     target: _blank
   - name: MOAP.MS
-    logo: assets/icons/favicons/moap.ms.png
+    logo: assets/icons/favicons/moap.ms.webp
     subtitle: Mother of all Portals
     tag: Security
     url: http://moap.ms
@@ -1120,7 +1120,7 @@ services:
     url: https://learn.microsoft.com/en-us/windows/dev-home/
     target: _blank
   - name: 'WinWorld: Library'
-    logo: assets/icons/favicons/winworldpc.com.png
+    logo: assets/icons/favicons/winworldpc.com.webp
     subtitle: Browse archived operating systems and software
     tag: Reference
     url: https://winworldpc.com/library/operating-systems
@@ -1189,7 +1189,7 @@ services:
     url: https://www.webwash.net/blog/
     target: _blank
   - name: Dennis Notes
-    logo: assets/icons/box.png
+    logo: assets/icons/box.webp
     subtitle: Linux
     tag: Linux
     url: https://dennisnotes.com
@@ -1208,7 +1208,7 @@ services:
     url: https://www.appsmith.com/blog/write-a-great-readme
     target: _blank
   - name: "THE ULTIMATE BEGINNER\u2019S GUIDE TO MICROSOFT GRAPH"
-    logo: assets/icons/favicons/laurakokkarinen.com.png
+    logo: assets/icons/favicons/laurakokkarinen.com.webp
     subtitle: Microsoft Graph
     tag: Graph
     url: https://laurakokkarinen.com/the-ultimate-beginners-guide-to-microsoft-graph/
@@ -1223,7 +1223,7 @@ services:
   icon: fas fa-brain
   items:
   - name: Stable Diffusion Playground
-    logo: assets/icons/favicons/stablediffusionweb.com.png
+    logo: assets/icons/favicons/stablediffusionweb.com.webp
     subtitle: Generate images with Stable Diffusion
     tag: AI
     url: https://stablediffusionweb.com/#demo

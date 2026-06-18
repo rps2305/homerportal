@@ -136,6 +136,12 @@ body #app .card:hover .tag .tag-text {
   max-height: 1.75rem;
 }
 
+body #bighead .first-line .logo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
 /* Search input: ensure text contrast */
 body .search-bar input {
   border-radius: 8px;
@@ -219,6 +225,12 @@ body #main-section {
 
 .media-left .image {
   min-width: 32px;
+}
+
+.media-left img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 /* Responsive adjustments */
