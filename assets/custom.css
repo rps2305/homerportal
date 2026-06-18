@@ -129,13 +129,13 @@ body #app .card:hover .tag .tag-text {
   background: var(--card-background);
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
-  color: var(--text);
+  color: var(--text) !important;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .search-bar input::placeholder {
-  color: var(--text-subtitle);
-  opacity: 0.7;
+  color: var(--text-subtitle) !important;
+  opacity: 0.8;
 }
 
 .search-bar input:focus {
