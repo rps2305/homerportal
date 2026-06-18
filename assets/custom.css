@@ -98,24 +98,60 @@ body #app .card:hover .tag .tag-text {
   display: inline;
 }
 
-/* Search bar: more prominent */
-.search-bar {
-  margin-bottom: 1.5rem;
+/* ─── Accessibility: color contrast fixes ─────────── */
+
+/* Headline (subtitle in header): explicit light color on dark navbar */
+.headline {
+  color: var(--text-header) !important;
+  opacity: 0.92;
 }
 
+/* Navbar links: ensure contrast on dark gradient */
+#app .navbar-item,
+#app .navbar-link {
+  color: var(--text-header) !important;
+}
+
+#app .navbar-item:hover,
+#app .navbar-link:hover {
+  color: var(--text-header) !important;
+  opacity: 0.8;
+}
+
+#app .navbar-item img {
+  max-height: 1.75rem;
+}
+
+/* Search input: ensure text contrast */
 .search-bar input {
   border-radius: 8px;
   border: 2px solid transparent;
   background: var(--card-background);
   padding: 0.75rem 1.25rem;
   font-size: 1rem;
+  color: var(--text);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-bar input::placeholder {
+  color: var(--text-subtitle);
+  opacity: 0.7;
 }
 
 .search-bar input:focus {
   border-color: var(--highlight-primary);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--highlight-primary) 20%, transparent);
   outline: none;
+}
+
+/* Card subtitles: ensure readability */
+#main-section .subtitle {
+  color: var(--text-subtitle);
+}
+
+/* Ensure card link text has sufficient contrast */
+.card .media-content a {
+  color: inherit;
 }
 
 /* Category section spacing */
