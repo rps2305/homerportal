@@ -6,29 +6,29 @@ footer: false
 theme: default
 colors:
   light:
-    highlight-primary: '#3367d6'
-    highlight-secondary: '#2b5cc9'
-    highlight-hover: '#4a7df5'
-    background: '#f5f5f5'
-    card-background: '#ffffff'
-    text: '#1a1a1a'
-    text-header: '#ffffff'
-    text-title: '#222222'
-    text-subtitle: '#3a3a3a'
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#2b5cc9"
+    highlight-hover: "#4a7df5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#1a1a1a"
+    text-header: "#ffffff"
+    text-title: "#222222"
+    text-subtitle: "#3a3a3a"
     card-shadow: rgba(0, 0, 0, 0.1)
-    link-hover: '#3367d6'
+    link-hover: "#3367d6"
   dark:
-    highlight-primary: '#3367d6'
-    highlight-secondary: '#2b5cc9'
-    highlight-hover: '#4a7df5'
-    background: '#131313'
-    card-background: '#2b2b2b'
-    text: '#eaeaea'
-    text-header: '#ffffff'
-    text-title: '#fafafa'
-    text-subtitle: '#cccccc'
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#2b5cc9"
+    highlight-hover: "#4a7df5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#cccccc"
     card-shadow: rgba(0, 0, 0, 0.4)
-    link-hover: '#ffdd57'
+    link-hover: "#ffdd57"
 links:
 - name: Homepage
   icon: fa fa-house
@@ -43,7 +43,7 @@ links:
   url: https://www.perfect-mojito.nl
   target: _blank
 services:
-- name: SEO
+- name: SEO Audits
   icon: fa fa-search-minus
   items:
   - name: gtmetrix.com
@@ -57,12 +57,6 @@ services:
     subtitle: Fast, comprehensive SEO checker
     tag: SEO
     url: https://www.seochecker.it/
-    target: _blank
-  - name: Geekflare Tools for SEO, DNS etc.
-    logo: assets/icons/favicons/geekflare.com.png
-    subtitle: Website, SEO, DNS, and business utility tools
-    tag: Tool
-    url: https://geekflare.com/tools
     target: _blank
   - name: Pagespeed Insights
     logo: assets/icons/favicons/pagespeed.web.dev.png
@@ -95,27 +89,62 @@ services:
     tag: SEO
     url: https://www.seobility.net/en/seocheck/
     target: _blank
+  - name: Mobile SEO Guide 2023
+    logo: assets/icons/favicons/www.link-assistant.com.png
+    subtitle: Practical guide to mobile SEO and indexing
+    tag: SEO
+    url: https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022
+    target: _blank
+- name: Search & Webmaster
+  icon: fa fa-search
+  items:
+  - name: Google - Test on Rich Results
+    logo: assets/icons/favicons/search.google.com.png
+    subtitle: Ondersteunt je pagina uitgebreide resultaten?
+    tag: SEO
+    url: https://search.google.com/test/rich-results
+    target: _blank
   - name: Core Web Vitals Technology Report
     logo: assets/icons/favicons/lookerstudio.google.com.png
-    subtitle: Google Looker Studio dashboard for Core Web Vitals technology usage data
+    subtitle: Google Looker Studio dashboard for Core Web Vitals technology usage
+      data
     tag: SEO
     url: https://lookerstudio.google.com/u/0/reporting/55bc8fad-44c2-4280-aa0b-5f3f0cd3d2be/page/RNEOC
+    target: _blank
+  - name: Google Search
+    logo: assets/icons/favicons/search.google.com.png
+    subtitle: Google Webmaster Tools
+    tag: Google
+    url: https://search.google.com/search-console
+    target: _blank
+  - name: Bing Search
+    logo: assets/icons/favicons/www.bing.com.png
+    subtitle: Beheer Bing Webmaster Tools
+    tag: Search
+    url: https://www.bing.com/webmasters
+    target: _blank
+  - name: Google Analytics Portal
+    logo: assets/icons/favicons/analytics.google.com.png
+    subtitle: Login for GA
+    tag: Google
+    url: https://analytics.google.com/analytics/web/
+    target: _blank
+  - name: Geekflare Tools for SEO, DNS etc.
+    logo: assets/icons/favicons/geekflare.com.png
+    subtitle: Website, SEO, DNS, and business utility tools
+    tag: Tool
+    url: https://geekflare.com/tools
     target: _blank
 - name: Validators
   icon: fa fa-check-circle
   items:
   - name: W3C - Validator
     logo: assets/icons/favicons/validator.w3.org.png
-    subtitle: "W3C's easy-to-use\n      markup validation service, based on SGML and\
-      \ XML parsers."
+    subtitle: |-
+      W3C's easy-to-use
+            markup validation service, based on SGML and XML parsers.
     tag: Validator
     url: https://validator.w3.org
-    target: _blank
-  - name: Google - Test on Rich Results
-    logo: assets/icons/favicons/search.google.com.png
-    subtitle: Ondersteunt je pagina uitgebreide resultaten?
-    tag: SEO
-    url: https://search.google.com/test/rich-results
     target: _blank
   - name: iCal Validator
     logo: assets/icons/favicons/icalendar.org.png
@@ -154,7 +183,7 @@ services:
     tag: Security
     url: https://csp-evaluator.withgoogle.com
     target: _blank
-- name: Content
+- name: Content & Stock
   icon: fas fa-images
   items:
   - name: Pixabay
@@ -181,33 +210,27 @@ services:
     tag: Image
     url: https://undraw.co/search
     target: _blank
-  - name: Mobile SEO Guide 2023
-    logo: assets/icons/favicons/www.link-assistant.com.png
-    subtitle: Practical guide to mobile SEO and indexing
-    tag: SEO
-    url: https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022
-    target: _blank
   - name: Unsplash
     logo: assets/icons/favicons/unsplash.com.png
     subtitle: Search free photos for web and design projects
     tag: Image
     url: https://unsplash.com/
     target: _blank
-  - name: ligalio
-    logo: assets/icons/favicons/ligalio.com.png
-    subtitle: GDPR privacy policy generator for websites and apps
-    tag: Privacy
-    url: https://ligalio.com
+  - name: Information is beautiful
+    logo: assets/icons/favicons/informationisbeautiful.net.png
+    tag: Reference
+    url: https://informationisbeautiful.net
     target: _blank
-- name: Generators
+    subtitle: Browse data visualizations and infographics
+  - name: 404 Illustrations
+    logo: assets/icons/favicons/www.kapwing.com.png
+    subtitle: Ready to use img for your 404 page
+    tag: AI
+    url: https://www.kapwing.com/404-illustrations
+    target: _blank
+- name: Generators & Mock Data
   icon: fa fa-shower
   items:
-  - name: HexColorCodes
-    logo: assets/icons/favicons/hexcolorcodes.org.png
-    subtitle: Pick colors and convert values across formats
-    tag: Color
-    url: https://hexcolorcodes.org
-    target: _blank
   - name: This Person Does Not Exist
     logo: assets/icons/favicons/thispersondoesnotexist.com.png
     subtitle: Random face generator
@@ -226,12 +249,6 @@ services:
     tag: Tool
     url: https://www.fakepersongenerator.com
     target: _blank
-  - name: Front-end Cheatsheets
-    logo: assets/icons/favicons/cheatsheets.shecodes.io.png
-    subtitle: Browse front-end coding cheat sheets
-    tag: Reference
-    url: https://cheatsheets.shecodes.io
-    target: _blank
   - name: RealFaviconGenerator
     logo: assets/icons/favicons/realfavicongenerator.net.png
     subtitle: Generate favicons for browsers and app platforms
@@ -244,9 +261,28 @@ services:
     tag: Tool
     url: https://loremipsum.io
     target: _blank
-- name: Color & Design Tools
+  - name: JSON Generator
+    logo: assets/icons/favicons/www.jsongenerator.io.png
+    subtitle: Easily generate mock JSON data using intuitive templates via API or
+      UI
+    tag: JSON
+    url: https://www.jsongenerator.io
+    target: _blank
+  - name: Dummy JSON
+    logo: assets/icons/favicons/dummyjson.com.webp
+    subtitle: Use fake REST API data for tests and prototypes
+    tag: JSON
+    url: https://dummyjson.com
+    target: _blank
+- name: Color & Visual Tools
   icon: fas fa-palette
   items:
+  - name: HexColorCodes
+    logo: assets/icons/favicons/hexcolorcodes.org.png
+    subtitle: Pick colors and convert values across formats
+    tag: Color
+    url: https://hexcolorcodes.org
+    target: _blank
   - name: Coolors
     logo: assets/icons/favicons/coolors.co.png
     subtitle: Fast color palette generator for designers and developers
@@ -259,6 +295,32 @@ services:
     tag: Color
     url: https://www.colorhexa.com
     target: _blank
+  - name: Gradient Generator
+    logo: assets/icons/favicons/www.joshwcomeau.com.png
+    subtitle: Friendly tutorials for developers. Focus on React, CSS, Animation, and
+      more!
+    tag: Reference
+    url: https://www.joshwcomeau.com/gradient-generator/
+    target: _blank
+  - name: 'Tailwind CSS Palette Generator '
+    logo: assets/icons/favicons/www.tints.dev.webp
+    subtitle: A fast and flexible, HSL-tweakable palette generator and API for Tailwind
+      CSS
+    tag: Tailwind CSS
+    url: https://www.tints.dev/brand/2522FC
+    target: _blank
+  - name: Squoosh
+    logo: assets/icons/favicons/squoosh.app.png
+    subtitle: Online image compression and resizing tool
+    tag: Image
+    url: https://squoosh.app
+    target: _blank
+  - name: SVGOMG
+    logo: assets/icons/favicons/svgomg.net.png
+    subtitle: SVGO optimization tool in the browser
+    tag: Image
+    url: https://svgomg.net
+    target: _blank
 - name: Security Checks
   icon: fa fa-shield
   items:
@@ -268,12 +330,6 @@ services:
       issues.
     tag: Tool
     url: https://pentest-tools.com/website-vulnerability-scanning/website-scanner
-    target: _blank
-  - name: Microsoft Connectivity Tester
-    logo: assets/icons/favicons/testconnectivity.microsoft.com.png
-    subtitle: Test Microsoft service connectivity
-    tag: Tool
-    url: https://testconnectivity.microsoft.com/
     target: _blank
   - name: Mozilla Observatory
     logo: assets/icons/favicons/observatory.mozilla.org.png
@@ -293,12 +349,6 @@ services:
     tag: Security
     url: https://www.ssllabs.com/ssltest/
     target: _blank
-  - name: Gzip Compression Test
-    logo: assets/icons/favicons/www.ipvoid.com.webp
-    subtitle: Check whether a site serves compressed responses
-    tag: Performance
-    url: https://www.ipvoid.com/gzip-test/
-    target: _blank
   - name: Snyk
     logo: assets/icons/favicons/snyk.io.png
     subtitle: Find and fix dependency and container vulnerabilities
@@ -310,12 +360,6 @@ services:
     subtitle: Decode and inspect JSON Web Tokens directly in your browser
     tag: Security
     url: https://jwt.ms
-    target: _blank
-  - name: Port Checker
-    logo: assets/icons/favicons/portchecker.io.png
-    subtitle: Check if a network port is open on your server or IP address
-    tag: Security
-    url: https://portchecker.io/
     target: _blank
   - name: Shodan
     logo: assets/icons/favicons/shodan.io.webp
@@ -335,7 +379,7 @@ services:
     tag: Security
     url: https://crt.sh
     target: _blank
-- name: DNS / IP
+- name: Network & DNS
   icon: fa fa-desktop
   items:
   - name: DNS SiteChecker
@@ -386,9 +430,27 @@ services:
     tag: Network
     url: https://internet.nl/
     target: _blank
-- name: Network Tools
+- name: Network Utilities
   icon: fa fa-network-wired
   items:
+  - name: Microsoft Connectivity Tester
+    logo: assets/icons/favicons/testconnectivity.microsoft.com.png
+    subtitle: Test Microsoft service connectivity
+    tag: Tool
+    url: https://testconnectivity.microsoft.com/
+    target: _blank
+  - name: Gzip Compression Test
+    logo: assets/icons/favicons/www.ipvoid.com.webp
+    subtitle: Check whether a site serves compressed responses
+    tag: Performance
+    url: https://www.ipvoid.com/gzip-test/
+    target: _blank
+  - name: Port Checker
+    logo: assets/icons/favicons/portchecker.io.png
+    subtitle: Check if a network port is open on your server or IP address
+    tag: Security
+    url: https://portchecker.io/
+    target: _blank
   - name: MXToolbox
     logo: assets/icons/favicons/mxtoolbox.com.png
     subtitle: DNS, email, and network diagnostic tools
@@ -413,8 +475,8 @@ services:
     tag: Network
     url: https://ping.eu
     target: _blank
-- name: Resources
-  icon: fas fa-book
+- name: Web Platform
+  icon: fas fa-globe
   items:
   - name: whatwebcando.today
     logo: assets/icons/favicons/whatwebcando.today.png
@@ -434,30 +496,45 @@ services:
     tag: PWA
     url: https://www.pwabuilder.com
     target: _blank
-  - name: Information is beautiful
-    logo: assets/icons/favicons/informationisbeautiful.net.png
-    tag: Reference
-    url: https://informationisbeautiful.net
+  - name: PWA tester online
+    logo: assets/icons/favicons/www.seochecker.it.png
+    subtitle: Online PWA tester by SeoChecker
+    tag: Tool
+    url: https://www.seochecker.it/pwa-tester-online
     target: _blank
-    subtitle: Browse data visualizations and infographics
+  - name: VERIFY HTTP/2 SUPPORT
+    logo: assets/icons/paperless.png
+    subtitle: Verify if a URL is delivered through the HTTP/2 network protocol.
+    tag: HTTP
+    url: https://tools.keycdn.com/http2-test
+    target: _blank
+  - name: Can I use?
+    logo: assets/icons/favicons/caniuse.com.png
+    subtitle: Check browser support for web platform features
+    tag: Reference
+    url: https://caniuse.com
+    target: _blank
+  - name: Webfont-Test
+    logo: assets/icons/favicons/webfont-test.com.png
+    subtitle: Test and compare web fonts
+    tag: Fonts
+    url: http://webfont-test.com
+    target: _blank
+- name: Developer References
+  icon: fas fa-book
+  items:
+  - name: Front-end Cheatsheets
+    logo: assets/icons/favicons/cheatsheets.shecodes.io.png
+    subtitle: Browse front-end coding cheat sheets
+    tag: Reference
+    url: https://cheatsheets.shecodes.io
+    target: _blank
   - name: MarkDown Cheatsheet
     logo: assets/icons/favicons/www.markdownguide.org.png
     tag: Markdown
     url: https://www.markdownguide.org/cheat-sheet/
     target: _blank
     subtitle: A quick reference to the Markdown syntax.
-  - name: Phind
-    logo: assets/icons/favicons/www.phind.com.png
-    subtitle: The AI search engine for developers.
-    tag: AI
-    url: https://www.phind.com
-    target: _blank
-  - name: 404 Illustrations
-    logo: assets/icons/favicons/www.kapwing.com.png
-    subtitle: Ready to use img for your 404 page
-    tag: AI
-    url: https://www.kapwing.com/404-illustrations
-    target: _blank
   - name: cheat.sh
     logo: assets/icons/favicons/github.com.png
     subtitle: Search command-line cheat sheets
@@ -496,7 +573,7 @@ services:
     tag: Reference
     url: https://diffchecker.com
     target: _blank
-- name: Dev Tools / Playgrounds
+- name: Dev Tools & Docs
   icon: fas fa-laptop-code
   items:
   - name: regex101
@@ -535,7 +612,26 @@ services:
     tag: Tool
     url: https://webhook.site
     target: _blank
-- name: Icons & SVGs
+  - name: SS64
+    logo: assets/icons/favicons/ss64.com.png
+    subtitle: Command-line reference for Windows, macOS, and Linux
+    tag: Microsoft
+    url: https://ss64.com
+    target: _blank
+  - name: Git Docs
+    logo: assets/icons/favicons/git-scm.com.png
+    subtitle: Official Git documentation and reference
+    tag: Git
+    url: https://git-scm.com/doc
+    target: _blank
+  - name: CyberChef
+    logo: assets/icons/favicons/gchq.github.io.webp
+    subtitle: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression
+      and data analysis
+    tag: Reference
+    url: https://gchq.github.io/CyberChef/
+    target: _blank
+- name: Icons & Diagrams
   icon: fas fa-icons
   items:
   - name: Font Awesome Icons
@@ -556,19 +652,37 @@ services:
     tag: Icons
     url: https://svgrepo.com
     target: _blank
-  - name: Squoosh
-    logo: assets/icons/favicons/squoosh.app.png
-    subtitle: Online image compression and resizing tool
-    tag: Image
-    url: https://squoosh.app
+  - name: draw.io
+    logo: assets/icons/favicons/app.diagrams.net.png
+    subtitle: Create diagrams, flowcharts, and network maps
+    tag: Tool
+    url: https://app.diagrams.net
     target: _blank
-  - name: SVGOMG
-    logo: assets/icons/favicons/svgomg.net.png
-    subtitle: SVGO optimization tool in the browser
-    tag: Image
-    url: https://svgomg.net
+  - name: GlooMaps
+    logo: assets/icons/favicons/www.gloomaps.com.png
+    subtitle: Create and share visual sitemaps
+    tag: Tool
+    url: https://www.gloomaps.com/
     target: _blank
-- name: HTML and CSS
+  - name: Free Online Database Diagram Tool
+    logo: assets/icons/favicons/databasediagram.com.png
+    subtitle: Draw ER diagrams in the browser
+    tag: Tool
+    url: https://databasediagram.com/
+    target: _blank
+  - name: Typograms
+    logo: assets/icons/favicons/google.github.io.png
+    subtitle: like markdown for diagrams
+    tag: Tool
+    url: https://google.github.io/typograms/
+    target: _blank
+  - name: Excalidraw
+    logo: assets/icons/favicons/excalidraw.com.png
+    subtitle: Virtual collaborative whiteboard for sketching diagrams and wireframes
+    tag: Tool
+    url: https://excalidraw.com
+    target: _blank
+- name: HTML, CSS & Accessibility
   icon: fas fa-code
   items:
   - name: W3C Validator
@@ -576,18 +690,6 @@ services:
     subtitle: Validate HTML markup
     tag: HTML
     url: https://validator.w3.org
-    target: _blank
-  - name: Webfont-Test
-    logo: assets/icons/favicons/webfont-test.com.png
-    subtitle: Test and compare web fonts
-    tag: Fonts
-    url: http://webfont-test.com
-    target: _blank
-  - name: Can I use?
-    logo: assets/icons/favicons/caniuse.com.png
-    subtitle: Check browser support for web platform features
-    tag: Reference
-    url: https://caniuse.com
     target: _blank
   - name: Word to HTML
     logo: assets/icons/favicons/wordhtml.com.png
@@ -600,21 +702,6 @@ services:
     subtitle: Remove HTML and formatting from pasted text
     tag: Reference
     url: https://www.striphtml.com/
-    target: _blank
-  - name: CyberChef
-    logo: assets/icons/favicons/gchq.github.io.webp
-    subtitle: The Cyber Swiss Army Knife - a web app for encryption, encoding, compression
-      and data analysis
-    tag: Reference
-    url: https://gchq.github.io/CyberChef/
-    target: _blank
-
-  - name: Gradient Generator
-    logo: assets/icons/favicons/www.joshwcomeau.com.png
-    subtitle: Friendly tutorials for developers. Focus on React, CSS, Animation, and
-      more!
-    tag: Reference
-    url: https://www.joshwcomeau.com/gradient-generator/
     target: _blank
   - name: WAVE
     logo: assets/icons/favicons/wave.webaim.org.png
@@ -634,7 +721,31 @@ services:
     tag: Reference
     url: https://gwfh.mranftl.com/fonts
     target: _blank
-- name: JSON
+  - name: Tailwind CSS Play
+    logo: assets/icons/favicons/play.tailwindcss.com.png
+    subtitle: Test Tailwind CSS directly in the browser
+    tag: Tailwind CSS
+    url: https://play.tailwindcss.com
+    target: _blank
+  - name: Tailwind CSS Responsive Cards
+    logo: assets/icons/favicons/tailwind-cards.netlify.app.webp
+    subtitle: Tailwind Components - Responsive Cards
+    tag: Tailwind CSS
+    url: https://tailwind-cards.netlify.app
+    target: _blank
+  - name: Tailwind CSS blocks
+    logo: assets/icons/favicons/tailblocks.cc.png
+    subtitle: Tailblocks — Ready-to-use Tailwind CSS blocks
+    tag: Tailwind CSS
+    url: https://tailblocks.cc
+    target: _blank
+  - name: Tailwind CSS Snippets vscode extension!)
+    logo: assets/icons/favicons/tws.zarifprogrammer.com.webp
+    subtitle: All Snippets Shortcuts
+    tag: Tailwind CSS
+    url: https://tws.zarifprogrammer.com/snippets
+    target: _blank
+- name: JSON & Data
   icon: fa fa-file
   items:
   - name: HoppScotch
@@ -645,7 +756,7 @@ services:
     target: _blank
   - name: JSON:API.org
     logo: assets/icons/favicons/jsonapi.org.png
-    subtitle: "JSON:API \u2014 A specification for building APIs in JSON"
+    subtitle: JSON:API — A specification for building APIs in JSON
     tag: JSON
     url: https://jsonapi.org
     target: _blank
@@ -672,19 +783,6 @@ services:
     subtitle: Generate mock JSON data from templates
     tag: JSON
     url: https://json2table.com/#
-    target: _blank
-  - name: JSON Generator
-    logo: assets/icons/favicons/www.jsongenerator.io.png
-    subtitle: Easily generate mock JSON data using intuitive templates via API or
-      UI
-    tag: JSON
-    url: https://www.jsongenerator.io
-    target: _blank
-  - name: Dummy JSON
-    logo: assets/icons/favicons/dummyjson.com.webp
-    subtitle: Use fake REST API data for tests and prototypes
-    tag: JSON
-    url: https://dummyjson.com
     target: _blank
   - name: URL Encode and Decode Tool
     logo: assets/icons/favicons/www.url-encode-decode.com.png
@@ -726,36 +824,21 @@ services:
     tag: Playground
     url: https://codesandbox.io
     target: _blank
-- name: Apache / Nginx
-  icon: fab fa-cloudflare
-  items:
-  - name: The Ultimate Htaccess
-    logo: assets/icons/favicons/www.askapache.com.png
-    subtitle: Reference for Apache htaccess rules and redirects
-    tag: Apache
-    url: https://www.askapache.com/htaccess/
-    target: _blank
-  - name: PWA tester online
-    logo: assets/icons/favicons/www.seochecker.it.png
-    subtitle: Online PWA tester by SeoChecker
+  - name: Visual Studio Code
+    logo: assets/icons/favicons/vscode.dev.webp
+    subtitle: Build with Visual Studio Code, anywhere, anytime, entirely in your browser.
     tag: Tool
-    url: https://www.seochecker.it/pwa-tester-online
+    url: https://vscode.dev
     target: _blank
-  - name: VERIFY HTTP/2 SUPPORT
-    logo: assets/icons/paperless.png
-    subtitle: Verify if a URL is delivered through the HTTP/2 network protocol.
-    tag: HTTP
-    url: https://tools.keycdn.com/http2-test
+  - name: Phind
+    logo: assets/icons/favicons/www.phind.com.png
+    subtitle: The AI search engine for developers.
+    tag: AI
+    url: https://www.phind.com
     target: _blank
-- name: Applications
+- name: Image & File Tools
   icon: fab fa-buffer
   items:
-  - name: draw.io
-    logo: assets/icons/favicons/app.diagrams.net.png
-    subtitle: Create diagrams, flowcharts, and network maps
-    tag: Tool
-    url: https://app.diagrams.net
-    target: _blank
   - name: TinyPNG
     logo: assets/icons/favicons/tinypng.com.png
     subtitle: Compress images for faster websites
@@ -767,18 +850,6 @@ services:
     subtitle: Find better version of image
     tag: Tool
     url: https://tineye.com/
-    target: _blank
-  - name: Eredivisie iCal
-    logo: assets/icons/favicons/maak-agenda.nl.png
-    subtitle: Importeer Eredivisie-wedstrijden in je agenda
-    tag: Tool
-    url: https://maak-agenda.nl
-    target: _blank
-  - name: Radio Garden
-    logo: assets/icons/favicons/radio.garden.png
-    subtitle: "Listen to live Bayamo radio on Radio Garden \u2013 Radio Garden"
-    tag: Tool
-    url: http://radio.garden/visit/bayamo/9x_j3ZkV
     target: _blank
   - name: PhotoFunia
     logo: assets/icons/favicons/photofunia.com.webp
@@ -798,24 +869,23 @@ services:
     tag: Tool
     url: https://en.savefrom.net/274/download-from-instagram
     target: _blank
-
-  - name: GlooMaps
-    logo: assets/icons/favicons/www.gloomaps.com.png
-    subtitle: Create and share visual sitemaps
+  - name: Autotracer.org
+    logo: assets/icons/favicons/autotracer.org.png
+    subtitle: Convert raster images to vector graphics
     tag: Tool
-    url: https://www.gloomaps.com/
+    url: https://autotracer.org/
     target: _blank
-  - name: Free Online Database Diagram Tool
-    logo: assets/icons/favicons/databasediagram.com.png
-    subtitle: Draw ER diagrams in the browser
+  - name: Photopea
+    logo: assets/icons/favicons/photopea.com.png
+    subtitle: Advanced online image editor resembling Photoshop
     tag: Tool
-    url: https://databasediagram.com/
+    url: https://photopea.com
     target: _blank
-  - name: Visual Studio Code
-    logo: assets/icons/favicons/vscode.dev.webp
-    subtitle: Build with Visual Studio Code, anywhere, anytime, entirely in your browser.
+  - name: CloudConvert
+    logo: assets/icons/favicons/cloudconvert.com.webp
+    subtitle: Convert files between 200+ formats online
     tag: Tool
-    url: https://vscode.dev
+    url: https://cloudconvert.com
     target: _blank
   - name: ShareCAD
     logo: assets/icons/box.webp
@@ -823,17 +893,20 @@ services:
     tag: Tool
     url: https://www.sharecad.org
     target: _blank
-  - name: Typograms
-    logo: assets/icons/favicons/google.github.io.png
-    subtitle: like markdown for diagrams
+- name: Media & Utilities
+  icon: fas fa-tools
+  items:
+  - name: Eredivisie iCal
+    logo: assets/icons/favicons/maak-agenda.nl.png
+    subtitle: Importeer Eredivisie-wedstrijden in je agenda
     tag: Tool
-    url: https://google.github.io/typograms/
+    url: https://maak-agenda.nl
     target: _blank
-  - name: Autotracer.org
-    logo: assets/icons/favicons/autotracer.org.png
-    subtitle: Convert raster images to vector graphics
+  - name: Radio Garden
+    logo: assets/icons/favicons/radio.garden.png
+    subtitle: Listen to live Bayamo radio on Radio Garden – Radio Garden
     tag: Tool
-    url: https://autotracer.org/
+    url: http://radio.garden/visit/bayamo/9x_j3ZkV
     target: _blank
   - name: Threads Video Downloader
     logo: assets/icons/favicons/threadsdownloader.com.png
@@ -847,29 +920,17 @@ services:
     tag: Tool
     url: https://rapidsave.com/
     target: _blank
-  - name: Excalidraw
-    logo: assets/icons/favicons/excalidraw.com.png
-    subtitle: Virtual collaborative whiteboard for sketching diagrams and wireframes
-    tag: Tool
-    url: https://excalidraw.com
+  - name: The Ultimate Htaccess
+    logo: assets/icons/favicons/www.askapache.com.png
+    subtitle: Reference for Apache htaccess rules and redirects
+    tag: Apache
+    url: https://www.askapache.com/htaccess/
     target: _blank
   - name: Notion
     logo: assets/icons/favicons/notion.so.png
     subtitle: All-in-one workspace for notes, docs, and project management
     tag: Tool
     url: https://notion.so
-    target: _blank
-  - name: Photopea
-    logo: assets/icons/favicons/photopea.com.png
-    subtitle: Advanced online image editor resembling Photoshop
-    tag: Tool
-    url: https://photopea.com
-    target: _blank
-  - name: CloudConvert
-    logo: assets/icons/favicons/cloudconvert.com.webp
-    subtitle: Convert files between 200+ formats online
-    tag: Tool
-    url: https://cloudconvert.com
     target: _blank
 - name: Selfhosted / OSS
   icon: fab fa-github
@@ -923,40 +984,6 @@ services:
     tag: Selfhosted
     url: https://awesome-selfhosted.net
     target: _blank
-- name: Tailwind CSS
-  icon: fab fa-css3-alt
-  items:
-  - name: Tailwind CSS Play
-    logo: assets/icons/favicons/play.tailwindcss.com.png
-    subtitle: Test Tailwind CSS directly in the browser
-    tag: Tailwind CSS
-    url: https://play.tailwindcss.com
-    target: _blank
-  - name: 'Tailwind CSS Palette Generator '
-    logo: assets/icons/favicons/www.tints.dev.webp
-    subtitle: A fast and flexible, HSL-tweakable palette generator and API for Tailwind
-      CSS
-    tag: Tailwind CSS
-    url: https://www.tints.dev/brand/2522FC
-    target: _blank
-  - name: Tailwind CSS Responsive Cards
-    logo: assets/icons/favicons/tailwind-cards.netlify.app.webp
-    subtitle: Tailwind Components - Responsive Cards
-    tag: Tailwind CSS
-    url: https://tailwind-cards.netlify.app
-    target: _blank
-  - name: Tailwind CSS blocks
-    logo: assets/icons/favicons/tailblocks.cc.png
-    subtitle: "Tailblocks \u2014 Ready-to-use Tailwind CSS blocks"
-    tag: Tailwind CSS
-    url: https://tailblocks.cc
-    target: _blank
-  - name: Tailwind CSS Snippets vscode extension!)
-    logo: assets/icons/favicons/tws.zarifprogrammer.com.webp
-    subtitle: All Snippets Shortcuts
-    tag: Tailwind CSS
-    url: https://tws.zarifprogrammer.com/snippets
-    target: _blank
 - name: Git & Automation
   icon: fab fa-git-alt
   items:
@@ -968,15 +995,23 @@ services:
     target: _blank
   - name: Conventional Commits
     logo: assets/icons/favicons/conventionalcommits.org.png
-    subtitle: A specification for adding human and machine readable meaning to commit messages
+    subtitle: A specification for adding human and machine readable meaning to commit
+      messages
     tag: Git
     url: https://www.conventionalcommits.org
     target: _blank
-  - name: Git Docs
-    logo: assets/icons/favicons/git-scm.com.png
-    subtitle: Official Git documentation and reference
-    tag: Git
-    url: https://git-scm.com/doc
+  - name: hymhub/css-to-tailwind
+    logo: assets/icons/favicons/github.com.png
+    subtitle: 'GitHub - hymhub/css-to-tailwind: Convert CSS code to Tailwindcss syntax
+      in real time'
+    tag: Tailwind
+    url: https://github.com/hymhub/css-to-tailwind
+    target: _blank
+  - name: How to Write a Great README
+    logo: assets/icons/favicons/www.appsmith.com.png
+    subtitle: Learn what makes a README clear and useful
+    tag: Markdown
+    url: https://www.appsmith.com/blog/write-a-great-readme
     target: _blank
 - name: Benchmarks
   icon: fas fa-chart-bar
@@ -1010,7 +1045,7 @@ services:
   items:
   - name: HomeBrew
     logo: assets/icons/favicons/brew.sh.png
-    subtitle: "Homebrew installs the stuff you need that Apple didn\u2019t."
+    subtitle: Homebrew installs the stuff you need that Apple didn’t.
     tag: Apple
     url: https://brew.sh
     target: _blank
@@ -1038,7 +1073,7 @@ services:
     tag: Apple
     url: https://developer.apple.com/documentation
     target: _blank
-- name: Microsoft
+- name: Windows & Packages
   icon: fab fa-windows
   items:
   - name: VLSC
@@ -1046,18 +1081,6 @@ services:
     subtitle: servicecentrum voor volumelicenties
     tag: Microsoft
     url: https://www.microsoft.com/Licensing/servicecenter/default.aspx
-    target: _blank
-  - name: Microsoft Portals
-    logo: assets/icons/favicons/msportals.io.png
-    subtitle: Directory of Microsoft admin and product portals
-    tag: Microsoft
-    url: https://msportals.io
-    target: _blank
-  - name: Microsoft Office 365 Info
-    logo: assets/icons/favicons/o365info.com.png
-    subtitle: o365info - Microsoft 365, Azure, Entra, Exchange Online and more
-    tag: Microsoft
-    url: https://o365info.com/
     target: _blank
   - name: Chocolatey.org
     logo: assets/icons/favicons/chocolatey.org.png
@@ -1071,11 +1094,32 @@ services:
     tag: Windows
     url: https://ninite.com
     target: _blank
-  - name: SS64
-    logo: assets/icons/favicons/ss64.com.png
-    subtitle: Command-line reference for Windows, macOS, and Linux
+  - name: Microsoft DEV Home
+    logo: assets/icons/favicons/learn.microsoft.com.png
+    subtitle: Set up and manage a Windows developer environment
+    tag: Developer
+    url: https://learn.microsoft.com/en-us/windows/dev-home/
+    target: _blank
+  - name: 'WinWorld: Library'
+    logo: assets/icons/favicons/winworldpc.com.webp
+    subtitle: Browse archived operating systems and software
+    tag: Reference
+    url: https://winworldpc.com/library/operating-systems
+    target: _blank
+- name: Microsoft 365
+  icon: fab fa-windows
+  items:
+  - name: Microsoft Portals
+    logo: assets/icons/favicons/msportals.io.png
+    subtitle: Directory of Microsoft admin and product portals
     tag: Microsoft
-    url: https://ss64.com
+    url: https://msportals.io
+    target: _blank
+  - name: Microsoft Office 365 Info
+    logo: assets/icons/favicons/o365info.com.png
+    subtitle: o365info - Microsoft 365, Azure, Entra, Exchange Online and more
+    tag: Microsoft
+    url: https://o365info.com/
     target: _blank
   - name: SharePointMaven
     logo: assets/icons/favicons/sharepointmaven.com.png
@@ -1101,66 +1145,21 @@ services:
     tag: Microsoft
     url: https://learn.microsoft.com/nl-nl/samples/browse/?redirectedfrom=TechNet-Gallery
     target: _blank
-  - name: No More Ransomware
-    logo: assets/icons/favicons/www.nomoreransom.org.png
-    subtitle: Hulp en decryptietools bij ransomware
-    tag: Security
-    url: https://www.nomoreransom.org/nl/index.html
-    target: _blank
   - name: MOAP.MS
     logo: assets/icons/favicons/moap.ms.webp
     subtitle: Mother of all Portals
     tag: Security
     url: http://moap.ms
     target: _blank
-  - name: Microsoft DEV Home
-    logo: assets/icons/favicons/learn.microsoft.com.png
-    subtitle: Set up and manage a Windows developer environment
-    tag: Developer
-    url: https://learn.microsoft.com/en-us/windows/dev-home/
+  - name: THE ULTIMATE BEGINNER’S GUIDE TO MICROSOFT GRAPH
+    logo: assets/icons/favicons/laurakokkarinen.com.webp
+    subtitle: Microsoft Graph
+    tag: Graph
+    url: https://laurakokkarinen.com/the-ultimate-beginners-guide-to-microsoft-graph/
     target: _blank
-  - name: 'WinWorld: Library'
-    logo: assets/icons/favicons/winworldpc.com.webp
-    subtitle: Browse archived operating systems and software
-    tag: Reference
-    url: https://winworldpc.com/library/operating-systems
-    target: _blank
-- name: Privacy
+- name: Privacy & Search
   icon: fa fa-address-book
   items:
-  - name: Have I Been Pwned
-    logo: assets/icons/favicons/haveibeenpwned.com.png
-    subtitle: Check whether an email appears in a breach
-    tag: Security
-    url: https://haveibeenpwned.com
-    target: _blank
-  - name: Ligalio
-    logo: assets/icons/favicons/ligalio.com.png
-    subtitle: Generate GDPR privacy policies for websites and apps
-    tag: Privacy
-    url: https://ligalio.com
-    target: _blank
-- name: Search Portals
-  icon: fa fa-search
-  items:
-  - name: Google Search
-    logo: assets/icons/favicons/search.google.com.png
-    subtitle: Google Webmaster Tools
-    tag: Google
-    url: https://search.google.com/search-console
-    target: _blank
-  - name: Bing Search
-    logo: assets/icons/favicons/www.bing.com.png
-    subtitle: Beheer Bing Webmaster Tools
-    tag: Search
-    url: https://www.bing.com/webmasters
-    target: _blank
-  - name: Google Analytics Portal
-    logo: assets/icons/favicons/analytics.google.com.png
-    subtitle: Login for GA
-    tag: Google
-    url: https://analytics.google.com/analytics/web/
-    target: _blank
   - name: DuckDuckGo
     logo: assets/icons/favicons/duckduckgo.com.png
     subtitle: Privacy-focused search engine that doesn't track your searches
@@ -1173,7 +1172,31 @@ services:
     tag: Search
     url: https://startpage.com
     target: _blank
-- name: Blog
+  - name: Have I Been Pwned
+    logo: assets/icons/favicons/haveibeenpwned.com.png
+    subtitle: Check whether an email appears in a breach
+    tag: Security
+    url: https://haveibeenpwned.com
+    target: _blank
+  - name: ligalio
+    logo: assets/icons/favicons/ligalio.com.png
+    subtitle: GDPR privacy policy generator for websites and apps
+    tag: Privacy
+    url: https://ligalio.com
+    target: _blank
+  - name: Ligalio
+    logo: assets/icons/favicons/ligalio.com.png
+    subtitle: Generate GDPR privacy policies for websites and apps
+    tag: Privacy
+    url: https://ligalio.com
+    target: _blank
+  - name: No More Ransomware
+    logo: assets/icons/favicons/www.nomoreransom.org.png
+    subtitle: Hulp en decryptietools bij ransomware
+    tag: Security
+    url: https://www.nomoreransom.org/nl/index.html
+    target: _blank
+- name: Blog & Writing
   icon: fas fa-feather-alt
   items:
   - name: Smashing Magazine
@@ -1194,69 +1217,20 @@ services:
     tag: Linux
     url: https://dennisnotes.com
     target: _blank
-  - name: hymhub/css-to-tailwind
-    logo: assets/icons/favicons/github.com.png
-    subtitle: 'GitHub - hymhub/css-to-tailwind: Convert CSS code to Tailwindcss syntax
-      in real time'
-    tag: Tailwind
-    url: https://github.com/hymhub/css-to-tailwind
-    target: _blank
-  - name: How to Write a Great README
-    logo: assets/icons/favicons/www.appsmith.com.png
-    subtitle: Learn what makes a README clear and useful
-    tag: Markdown
-    url: https://www.appsmith.com/blog/write-a-great-readme
-    target: _blank
-  - name: "THE ULTIMATE BEGINNER\u2019S GUIDE TO MICROSOFT GRAPH"
-    logo: assets/icons/favicons/laurakokkarinen.com.webp
-    subtitle: Microsoft Graph
-    tag: Graph
-    url: https://laurakokkarinen.com/the-ultimate-beginners-guide-to-microsoft-graph/
-    target: _blank
   - name: Plain English
     logo: assets/icons/favicons/plainenglish.io.png
     subtitle: Clear, accessible tech writing and tutorials for developers
     tag: Writing
     url: https://plainenglish.io/
     target: _blank
-- name: AI
+- name: AI Assistants
   icon: fas fa-brain
   items:
-  - name: Stable Diffusion Playground
-    logo: assets/icons/favicons/stablediffusionweb.com.webp
-    subtitle: Generate images with Stable Diffusion
-    tag: AI
-    url: https://stablediffusionweb.com/#demo
-    target: _blank
   - name: Perplexity AI
     logo: assets/icons/favicons/www.perplexity.ai.png
     subtitle: AI-powered web search and research
     tag: AI
     url: https://www.perplexity.ai/
-    target: _blank
-  - name: Microsoft Designer
-    logo: assets/icons/favicons/designer.microsoft.com.png
-    subtitle: Create social and marketing graphics with AI
-    tag: AI
-    url: https://designer.microsoft.com/
-    target: _blank
-  - name: cutout.pro
-    logo: assets/icons/favicons/www.cutout.pro.png
-    subtitle: Edit images and remove backgrounds with AI
-    tag: AI
-    url: https://www.cutout.pro
-    target: _blank
-  - name: Video2Recipe
-    logo: assets/icons/favicons/video2recipe.com.png
-    subtitle: Convert your favorite cooking videos to recipes in seconds
-    tag: AI
-    url: https://video2recipe.com
-    target: _blank
-  - name: Looka
-    logo: assets/icons/favicons/looka.com.png
-    subtitle: Design your own beautiful brand
-    tag: AI
-    url: https://looka.com
     target: _blank
   - name: ChatGPT
     logo: assets/icons/favicons/chat.openai.com.png
@@ -1281,6 +1255,39 @@ services:
     subtitle: AI model repository, datasets, and machine learning platform
     tag: AI
     url: https://huggingface.co
+    target: _blank
+- name: AI Creative
+  icon: fas fa-magic
+  items:
+  - name: Stable Diffusion Playground
+    logo: assets/icons/favicons/stablediffusionweb.com.webp
+    subtitle: Generate images with Stable Diffusion
+    tag: AI
+    url: https://stablediffusionweb.com/#demo
+    target: _blank
+  - name: Microsoft Designer
+    logo: assets/icons/favicons/designer.microsoft.com.png
+    subtitle: Create social and marketing graphics with AI
+    tag: AI
+    url: https://designer.microsoft.com/
+    target: _blank
+  - name: cutout.pro
+    logo: assets/icons/favicons/www.cutout.pro.png
+    subtitle: Edit images and remove backgrounds with AI
+    tag: AI
+    url: https://www.cutout.pro
+    target: _blank
+  - name: Video2Recipe
+    logo: assets/icons/favicons/video2recipe.com.png
+    subtitle: Convert your favorite cooking videos to recipes in seconds
+    tag: AI
+    url: https://video2recipe.com
+    target: _blank
+  - name: Looka
+    logo: assets/icons/favicons/looka.com.png
+    subtitle: Design your own beautiful brand
+    tag: AI
+    url: https://looka.com
     target: _blank
   - name: Midjourney
     logo: assets/icons/favicons/midjourney.com.png
