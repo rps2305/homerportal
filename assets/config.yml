@@ -1237,6 +1237,18 @@ services:
     tag: Apple
     url: https://vorssaint.com/
     target: _blank
+  - name: MacPacker
+    logo: assets/icons/favicons/macpacker.app.png
+    subtitle: Free, open-source macOS archive manager with nested archive preview
+    tag: Apple
+    url: https://macpacker.app/
+    target: _blank
+  - name: macUSB
+    logo: assets/icons/favicons/www.macusb.app.png
+    subtitle: All-in-one bootable USB creator for Mac
+    tag: Apple
+    url: https://www.macusb.app
+    target: _blank
   - name: EveryMac
     logo: assets/icons/favicons/everymac.com.png
     subtitle: Specs, prices, and model identifiers for every Mac, iPhone, and iPad
