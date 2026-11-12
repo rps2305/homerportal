@@ -95,6 +95,18 @@ services:
     tag: SEO
     url: https://www.link-assistant.com/news/mobile-seo.html?utm_source=email&utm_medium=broadcast&utm_campaign=mobile-seo-25102022
     target: _blank
+  - name: WebPageTest
+    logo: assets/icons/favicons/www.webpagetest.org.png
+    subtitle: Real-browser performance tests from locations around the world
+    tag: Performance
+    url: https://www.webpagetest.org/
+    target: _blank
+  - name: Google Trends
+    logo: assets/icons/favicons/trends.google.com.png
+    subtitle: Explore search interest and keyword popularity over time
+    tag: SEO
+    url: https://trends.google.com/trends/
+    target: _blank
 - name: Search & Webmaster
   icon: fa fa-search
   items:
@@ -274,6 +286,12 @@ services:
     tag: JSON
     url: https://dummyjson.com
     target: _blank
+  - name: Mockaroo
+    logo: assets/icons/favicons/www.mockaroo.com.png
+    subtitle: Generate realistic mock data and fake APIs as JSON, CSV, SQL, or Excel
+    tag: JSON
+    url: https://www.mockaroo.com/
+    target: _blank
 - name: Color & Visual Tools
   icon: fas fa-palette
   items:
@@ -379,6 +397,24 @@ services:
     tag: Security
     url: https://crt.sh
     target: _blank
+  - name: Security Headers
+    logo: assets/icons/favicons/securityheaders.com.png
+    subtitle: Analyse HTTP response headers for missing security protections
+    tag: Security
+    url: https://securityheaders.com/
+    target: _blank
+  - name: OWASP Cheat Sheet Series
+    logo: assets/icons/favicons/cheatsheetseries.owasp.org.png
+    subtitle: Practical application security guidance and cheat sheets from OWASP
+    tag: Security
+    url: https://cheatsheetseries.owasp.org/
+    target: _blank
+  - name: urlscan.io
+    logo: assets/icons/favicons/urlscan.io.png
+    subtitle: Scan and analyse suspicious or malicious URLs
+    tag: Security
+    url: https://urlscan.io/
+    target: _blank
 - name: Network & DNS
   icon: fa fa-desktop
   items:
@@ -430,6 +466,12 @@ services:
     tag: Network
     url: https://internet.nl/
     target: _blank
+  - name: DNSViz
+    logo: assets/icons/favicons/dnsviz.net.png
+    subtitle: Visual DNS analysis and DNSSEC troubleshooting tool
+    tag: DNS
+    url: https://dnsviz.net/
+    target: _blank
 - name: Network Utilities
   icon: fa fa-network-wired
   items:
@@ -474,6 +516,18 @@ services:
     subtitle: Online network tools including ping, traceroute, port check
     tag: Network
     url: https://ping.eu
+    target: _blank
+  - name: Down For Everyone Or Just Me
+    logo: assets/icons/favicons/downforeveryoneorjustme.com.png
+    subtitle: Check whether a website is down for everyone or just you
+    tag: Tool
+    url: https://downforeveryoneorjustme.com/
+    target: _blank
+  - name: Fast.com
+    logo: assets/icons/favicons/fast.com.png
+    subtitle: Simple internet download speed test by Netflix
+    tag: Tool
+    url: https://fast.com/
     target: _blank
 - name: Web Platform
   icon: fas fa-globe
@@ -573,6 +627,30 @@ services:
     tag: Reference
     url: https://diffchecker.com
     target: _blank
+  - name: MDN Web Docs
+    logo: assets/icons/favicons/developer.mozilla.org.png
+    subtitle: Official documentation and reference for HTML, CSS, JavaScript, and web APIs
+    tag: Reference
+    url: https://developer.mozilla.org/
+    target: _blank
+  - name: CSS-Tricks
+    logo: assets/icons/favicons/css-tricks.com.png
+    subtitle: Front-end articles, tips, and guides about HTML, CSS, and JavaScript
+    tag: Reference
+    url: https://css-tricks.com/
+    target: _blank
+  - name: JavaScript.info
+    logo: assets/icons/favicons/javascript.info.png
+    subtitle: Modern JavaScript tutorial with in-depth explanations and exercises
+    tag: Reference
+    url: https://javascript.info/
+    target: _blank
+  - name: Refactoring.Guru
+    logo: assets/icons/favicons/refactoring.guru.png
+    subtitle: Design patterns, refactoring techniques, and clean code explained
+    tag: Reference
+    url: https://refactoring.guru/
+    target: _blank
 - name: Dev Tools & Docs
   icon: fas fa-laptop-code
   items:
@@ -631,6 +709,30 @@ services:
     tag: Reference
     url: https://gchq.github.io/CyberChef/
     target: _blank
+  - name: IT Tools
+    logo: assets/icons/favicons/it-tools.tech.png
+    subtitle: Open-source collection of handy online tools for developers and IT work
+    tag: Tool
+    url: https://it-tools.tech/
+    target: _blank
+  - name: curlconverter
+    logo: assets/icons/favicons/curlconverter.com.png
+    subtitle: Convert cURL commands into code for many programming languages
+    tag: Tool
+    url: https://curlconverter.com/
+    target: _blank
+  - name: Transform.tools
+    logo: assets/icons/favicons/transform.tools.png
+    subtitle: Polyglot web converter for JSON, YAML, TypeScript, SVG, and more
+    tag: Tool
+    url: https://transform.tools/
+    target: _blank
+  - name: Ray.so
+    logo: assets/icons/favicons/ray.so.png
+    subtitle: Create beautiful images of your code to share
+    tag: Tool
+    url: https://ray.so/
+    target: _blank
 - name: Icons & Diagrams
   icon: fas fa-icons
   items:
@@ -676,11 +778,30 @@ services:
     tag: Tool
     url: https://google.github.io/typograms/
     target: _blank
+  - name: Mermaid Live Editor
+    logo: assets/icons/favicons/mermaid.ai.png
+    subtitle: Open source diagramming tool that generates charts and diagrams from
+      markdown-like text
+    tag: Diagrams
+    url: https://mermaid.ai/live/
+    target: _blank
   - name: Excalidraw
     logo: assets/icons/favicons/excalidraw.com.png
     subtitle: Virtual collaborative whiteboard for sketching diagrams and wireframes
     tag: Tool
     url: https://excalidraw.com
+    target: _blank
+  - name: Heroicons
+    logo: assets/icons/favicons/heroicons.com.png
+    subtitle: Hand-crafted SVG icons by the makers of Tailwind CSS
+    tag: Icons
+    url: https://heroicons.com/
+    target: _blank
+  - name: Iconify
+    logo: assets/icons/favicons/icon-sets.iconify.design.png
+    subtitle: Search hundreds of thousands of open-source icons across icon sets
+    tag: Icons
+    url: https://icon-sets.iconify.design/
     target: _blank
 - name: HTML, CSS & Accessibility
   icon: fas fa-code
@@ -745,6 +866,12 @@ services:
     tag: Tailwind CSS
     url: https://tws.zarifprogrammer.com/snippets
     target: _blank
+  - name: Google Fonts
+    logo: assets/icons/favicons/fonts.google.com.png
+    subtitle: Browse, preview, and download open-source web fonts
+    tag: Fonts
+    url: https://fonts.google.com/
+    target: _blank
 - name: JSON & Data
   icon: fa fa-file
   items:
@@ -760,11 +887,17 @@ services:
     tag: JSON
     url: https://jsonapi.org
     target: _blank
-  - name: JSON Test
+  - name: JSONPlaceholder
     logo: assets/icons/json-icon-24.jpg.png
-    subtitle: Test JSON service responses
+    subtitle: Free fake REST API for testing and prototyping JSON responses
     tag: JSON
-    url: http://www.jsontest.com
+    url: https://jsonplaceholder.typicode.com/
+    target: _blank
+  - name: JSONLint
+    logo: assets/icons/favicons/jsonlint.com.png
+    subtitle: Validate, format, and beautify JSON online
+    tag: JSON
+    url: https://jsonlint.com/
     target: _blank
   - name: JSON Formatter
     logo: assets/icons/favicons/jsonformatter.org.png
@@ -835,6 +968,12 @@ services:
     subtitle: The AI search engine for developers.
     tag: AI
     url: https://www.phind.com
+    target: _blank
+  - name: Swagger Editor
+    logo: assets/icons/favicons/editor.swagger.io.png
+    subtitle: Design, document, and test OpenAPI specifications in the browser
+    tag: API
+    url: https://editor.swagger.io/
     target: _blank
 - name: Image & File Tools
   icon: fab fa-buffer
@@ -954,6 +1093,19 @@ services:
     tag: Docker
     url: https://docker-curriculum.com/#introduction
     target: _blank
+  - name: Play with Docker
+    logo: assets/icons/favicons/www.docker.com.png
+    subtitle: Self-paced Docker tutorials and a collaborative playground to run
+      containers in the browser
+    tag: Docker
+    url: https://www.docker.com/play-with-docker
+    target: _blank
+  - name: Play with Docker Classroom
+    logo: assets/icons/favicons/training.play-with-docker.com.png
+    subtitle: Hands-on Docker and container training labs for beginners and teams
+    tag: Docker
+    url: https://training.play-with-docker.com
+    target: _blank
   - name: LinuxServer.io
     logo: assets/icons/box.webp
     subtitle: Home | LinuxServer.ioMastodon
@@ -984,6 +1136,24 @@ services:
     tag: Selfhosted
     url: https://awesome-selfhosted.net
     target: _blank
+  - name: Home Assistant
+    logo: assets/icons/favicons/www.home-assistant.io.png
+    subtitle: Open-source home automation focused on local control and privacy
+    tag: Selfhosted
+    url: https://www.home-assistant.io/
+    target: _blank
+  - name: Jellyfin
+    logo: assets/icons/favicons/jellyfin.org.png
+    subtitle: Free software media server for streaming your own media anywhere
+    tag: Selfhosted
+    url: https://jellyfin.org/
+    target: _blank
+  - name: Immich
+    logo: assets/icons/favicons/immich.app.png
+    subtitle: Self-hosted photo and video backup and management solution
+    tag: Selfhosted
+    url: https://immich.app/
+    target: _blank
 - name: Git & Automation
   icon: fab fa-git-alt
   items:
@@ -1013,6 +1183,12 @@ services:
     tag: Markdown
     url: https://www.appsmith.com/blog/write-a-great-readme
     target: _blank
+  - name: Learn Git Branching
+    logo: assets/icons/favicons/learngitbranching.js.org.png
+    subtitle: Interactive Git tutorials and visual branching challenges
+    tag: Git
+    url: https://learngitbranching.js.org/
+    target: _blank
 - name: Benchmarks
   icon: fas fa-chart-bar
   items:
@@ -1040,6 +1216,12 @@ services:
     tag: Benchmark
     url: https://browserbench.org/Speedometer3.0
     target: _blank
+  - name: Geekbench Browser
+    logo: assets/icons/favicons/browser.geekbench.com.png
+    subtitle: Compare Geekbench benchmark scores across devices and CPUs
+    tag: Benchmark
+    url: https://browser.geekbench.com/
+    target: _blank
 - name: Apple
   icon: fab fa-apple
   items:
@@ -1049,11 +1231,11 @@ services:
     tag: Apple
     url: https://brew.sh
     target: _blank
-  - name: iPhone Wiki - Models
-    logo: assets/icons/favicons/www.theiphonewiki.com.png
-    subtitle: Apple Models, Indentifiers, A-numbers
+  - name: EveryMac
+    logo: assets/icons/favicons/everymac.com.png
+    subtitle: Specs, prices, and model identifiers for every Mac, iPhone, and iPad
     tag: Apple
-    url: https://www.theiphonewiki.com/wiki/Models
+    url: https://everymac.com/
     target: _blank
   - name: IPSW Downloads
     logo: assets/icons/favicons/ipsw.me.png
@@ -1072,6 +1254,12 @@ services:
     subtitle: Official Apple developer documentation, guides, and API references
     tag: Apple
     url: https://developer.apple.com/documentation
+    target: _blank
+  - name: MacRumors Buyer's Guide
+    logo: assets/icons/favicons/buyersguide.macrumors.com.png
+    subtitle: Know when to buy or wait for the next Apple product update
+    tag: Apple
+    url: https://buyersguide.macrumors.com/
     target: _blank
 - name: Windows & Packages
   icon: fab fa-windows
@@ -1105,6 +1293,18 @@ services:
     subtitle: Browse archived operating systems and software
     tag: Reference
     url: https://winworldpc.com/library/operating-systems
+    target: _blank
+  - name: Rufus
+    logo: assets/icons/favicons/rufus.ie.png
+    subtitle: Create bootable USB drives for Windows, Linux, and DOS
+    tag: Windows
+    url: https://rufus.ie/
+    target: _blank
+  - name: Sysinternals
+    logo: assets/icons/favicons/learn.microsoft.com.png
+    subtitle: Microsoft utilities for troubleshooting and managing Windows
+    tag: Microsoft
+    url: https://learn.microsoft.com/en-us/sysinternals/
     target: _blank
 - name: Microsoft 365
   icon: fab fa-windows
@@ -1178,23 +1378,29 @@ services:
     tag: Security
     url: https://haveibeenpwned.com
     target: _blank
-  - name: ligalio
-    logo: assets/icons/favicons/ligalio.com.png
-    subtitle: GDPR privacy policy generator for websites and apps
+  - name: TermsFeed Privacy Policy Generator
+    logo: assets/icons/favicons/www.termsfeed.com.png
+    subtitle: Free privacy policy generator for websites, apps, and SaaS (GDPR, CCPA)
     tag: Privacy
-    url: https://ligalio.com
-    target: _blank
-  - name: Ligalio
-    logo: assets/icons/favicons/ligalio.com.png
-    subtitle: Generate GDPR privacy policies for websites and apps
-    tag: Privacy
-    url: https://ligalio.com
+    url: https://www.termsfeed.com/privacy-policy-generator/
     target: _blank
   - name: No More Ransomware
     logo: assets/icons/favicons/www.nomoreransom.org.png
     subtitle: Hulp en decryptietools bij ransomware
     tag: Security
     url: https://www.nomoreransom.org/nl/index.html
+    target: _blank
+  - name: Privacy Guides
+    logo: assets/icons/favicons/www.privacyguides.org.png
+    subtitle: Non-profit recommendations for privacy-respecting tools and services
+    tag: Privacy
+    url: https://www.privacyguides.org/
+    target: _blank
+  - name: ToS;DR
+    logo: assets/icons/favicons/tosdr.org.png
+    subtitle: Understand what you agree to in terms of service and privacy policies
+    tag: Privacy
+    url: https://tosdr.org/
     target: _blank
 - name: Blog & Writing
   icon: fas fa-feather-alt
@@ -1217,11 +1423,23 @@ services:
     tag: Linux
     url: https://dennisnotes.com
     target: _blank
+  - name: Techno Tim
+    logo: assets/icons/favicons/technotim.live.png
+    subtitle: Homelab, self-hosting, and automation documentation, guides, and videos
+    tag: Homelab
+    url: https://technotim.live/
+    target: _blank
   - name: Plain English
     logo: assets/icons/favicons/plainenglish.io.png
     subtitle: Clear, accessible tech writing and tutorials for developers
     tag: Writing
     url: https://plainenglish.io/
+    target: _blank
+  - name: DEV Community
+    logo: assets/icons/favicons/dev.to.png
+    subtitle: Community for developers to share articles, tutorials, and discussions
+    tag: Writing
+    url: https://dev.to/
     target: _blank
 - name: AI Assistants
   icon: fas fa-brain
@@ -1255,6 +1473,12 @@ services:
     subtitle: AI model repository, datasets, and machine learning platform
     tag: AI
     url: https://huggingface.co
+    target: _blank
+  - name: LM Arena
+    logo: assets/icons/favicons/lmarena.ai.png
+    subtitle: Compare and vote on the best AI models on a public leaderboard
+    tag: AI
+    url: https://lmarena.ai/
     target: _blank
 - name: AI Creative
   icon: fas fa-magic
@@ -1294,4 +1518,22 @@ services:
     subtitle: AI image generation platform for creating artwork from text prompts
     tag: AI
     url: https://midjourney.com
+    target: _blank
+  - name: AI Image Prompt Generator
+    logo: assets/icons/favicons/perchance.org.png
+    subtitle: Generate random AI image prompts with Perchance
+    tag: AI
+    url: https://perchance.org/4esiinusds
+    target: _blank
+  - name: Ideogram
+    logo: assets/icons/favicons/ideogram.ai.png
+    subtitle: AI image generation with strong text rendering and design tools
+    tag: AI
+    url: https://ideogram.ai/
+    target: _blank
+  - name: ElevenLabs
+    logo: assets/icons/favicons/elevenlabs.io.png
+    subtitle: AI voice generator and voice agents with lifelike speech
+    tag: AI
+    url: https://elevenlabs.io/
     target: _blank
