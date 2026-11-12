@@ -1231,6 +1231,12 @@ services:
     tag: Apple
     url: https://brew.sh
     target: _blank
+  - name: Vorssaint
+    logo: assets/icons/favicons/vorssaint.com.png
+    subtitle: Free, open-source modular menu bar toolkit for macOS
+    tag: Apple
+    url: https://vorssaint.com/
+    target: _blank
   - name: EveryMac
     logo: assets/icons/favicons/everymac.com.png
     subtitle: Specs, prices, and model identifiers for every Mac, iPhone, and iPad
